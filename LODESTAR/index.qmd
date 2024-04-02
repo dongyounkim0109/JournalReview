@@ -42,7 +42,7 @@ editor: visual
 
     -   지질 수치를 교정하는 주 목적은 **ASCVD 예방**!
 
-## 이상지질혈증의 치료
+## 이상지질혈증의 치료 {.smaller}
 
 -   **Statin** (HMG-CoA reductase inhibitor)
 
@@ -65,7 +65,7 @@ editor: visual
 
 # Background
 
-## 스타틴 투여 전략
+## 스타틴 투여 전략 {.smaller}
 
 ::: panel-tabset
 ### 1. Treat-to-Target
@@ -87,12 +87,12 @@ editor: visual
 -   일부 가이드라인에서는 LDL-C를 적어도 50% 이상 감소시키기 위해 고강도 스타틴 치료를 권장한다.
 
     | 장점                              | 단점                                                                               |
-    |-------------------------|----------------------------------------------|
+    |--------------------------|----------------------------------------------|
     | 스타틴 강도 조절이 필요 없어 편리 | 스타틴 약제에 개개인의 반응이 다름                                                 |
     |                                   | 장기적으로 고강도 스타틴 투여로 발생하는 근육통, 간 손상, 당뇨 등 부작용 발생 위험 |
 :::
 
-## Background_2
+## Background_2 {.smaller}
 
 -   그동안 이 [두 가지의 스타틴 치료 전략을 직접 (head-to-head) 비교한 임상 추적 연구는 없었다]{.underline}.
 -   **LOADSTAR** **trial** 의의 : 관상동맥질환 환자의 장기간 임상 결과 (3-year clinical outcomes)의 측면에서 treat-to-target strategy가 high-intensity statins 대비 비열등한지 검정(noninferiority)
@@ -108,7 +108,11 @@ editor: visual
     -   3년간 추적 관찰함
         -   추적 관찰을 위한 방문 시점 : 6w, 3, 6, 12, 24, 36m
 
-## Population
+## Study design
+
+![](LODESTAR supplement/LOADSTAR Study design.png){fig-align="center"}
+
+## Population {.smaller}
 
 -   Inclusion Criteria
 
@@ -132,7 +136,7 @@ editor: visual
 
 ![](LODESTAR%20supplement/LOADSTAR%20Figure%201.png){fig-align="center"}
 
-## Study Procedures
+## Study Procedures {.smaller}
 
 -   스타틴 용량은 [2013 ACA/AHA guideline](https://www.ahajournals.org/doi/full/10.1161/01.cir.0000437738.63853.7a) 을 기반으로 함.
 
@@ -160,34 +164,36 @@ editor: visual
 ## Study Endpoint {#criteria-of-revascularization-successful-pci}
 
 ::: panel-tabset
-## Primary Endpoint
+## Primary Endpoint {.smaller}
 
--   **Manor Adverse Cardiac and Cerebrovascular Events** : 추적 3년 동안의 임상경과로 정의.
+-   **Manor Adverse Cardiac and Cerebrovascular Events(MACCE)** : 추적 3년 동안의 주요 심장 및 뇌혈관 부작용
 
     -   구성요소 : **All cause death** (모든 원인에 의한 사망) + **Myocardial infarction** (심근경색) + **Stroke** (뇌졸중) + **Revascularization** (재관류시술)
 
-## Secondary Outcomes
+## Secondary Outcomes {.smaller}
 
--   \(1\) new- onset diabetes, (2) hospitalization due to heart failure, (3) deep vein thrombosis or pulmonary thromboembolism, (4) endovascular revascularization for peripheral artery dis- ease, (5) aortic intervention or surgery, (6) end-stage kidney disease, (7) discontinuation of study drugs due to intolerance, (8) cataract operation (9) composite of laboratory abnormalities.
+\(1\) 무작위 배정 후 새로 발병한 당뇨병, (2) 심부전으로 인한 입원, (3) 심부 정맥 혈전증 또는 폐색전증, (4) 말초 동맥 폐쇄 질환에 대한 경피경혈관 성형술, (5) 대동맥 중재술 또는 수술, (6) 신대체 요법을 사용한 말기신장병, (7) 불내성으로 인한 연구 약물 중단, (8) 백내장 수술 (9) 검사실 소견 이상
 :::
 
 ## Sample size calculation {.smaller}
 
--   가정 :
--   Sampling Ratio - FFR : IVUS = 1 : 1
--   **Non-inferiority margin 2.5%**
-    -   H0 : 의 primary outcome 발생률 - 의 primary outcome은 3.5% (NI) 이상이다.
--   Statistical Power (검정력) : 90%
--   단측검정, 95% 신뢰구간 이용, type 1 error rate 5.0% (의료기기 검정에 사용)
--   Sample size : 4400 명 (각 그룹당 850명) 필요
+-   가정 : 3년째 primary outcome의 발생률이 두 그룹 모두에서 12%라고 가정함.
+-   **Non-inferiority margin 3.0%**
+    -   두 그룹의 primary 누적발생률 차이의 단측 97.5% CI 상한 \< 3.0% 일 경우 비열등성 입증
+-   Statistical Power (검정력) : 80%
+-   단측검정, type 1 error rate 2.5%
+-   추적관찰 중 이탈률을 15%로 가정
+-   **Sample size : 4400 명 (각 그룹당 2200명)** 필요
 
 ## Statistical analysis {.smaller}
 
--   **Cox proportional-hazards regression** : 실험 기관과 당뇨 여부를 고려하여 primary outcome 분석
-    -   proportional-hazards assumption : Hazard가 시간에 따른 비례성을 가지는지 확인하기 위해 scaled Schoenfeld residuals 를 이용 (two-sided)
--   **Kaplan-Meier survival analysis** with log rank test : Primary statistical method <br><br>
+-   **Kaplan-Meier curve**: 3년째의 primary outcome의 누적 발생률 추정
+    -   사건 발생까지의 시간(time to event)를 분석 대상으로,
+    -   time : 무작위 할당 시점\~event of interest가 처음으로 발생한 시점까지 경과한 시간
+-   **비열등성 검정**
+    -   Kaplan-Meier 생존 곡선에서 failure rate에 대한 z 통계량을 추정하기 위해 [Com-Nougue 방법](https://pubmed.ncbi.nlm.nih.gov/8210831/)을 사용
+    -   표준 오차를 추정하기 위해 [Greenwood formula](https://www.stat.berkeley.edu/~freedman/greenwd.pdf)를 시행
 -   **Intention-to-treat**, **Per-Protocol** 분석 모두 시행
--   Multiple comparison 및 Multiplicity 교정은 x
 
 # Results
 
@@ -196,11 +202,7 @@ editor: visual
 ::: panel-tabset
 ### Table 1.
 
-![](images/FLAVOUR%20Table%201.jpeg){fig-align="center"}
-
 ### **Table 2.**
-
-![](images/FLAVOUR%20Table%202.jpeg){fig-align="center"}
 
 ### Figure S2
 
@@ -217,8 +219,6 @@ editor: visual
 
 ::: panel-tabset
 ### Table 3
-
-![](images/FLAVOUR%20Table%203.jpeg){fig-align="center"}
 
 ### Table S6
 
