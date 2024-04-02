@@ -35,7 +35,7 @@ editor: visual
 
     -   FFR 0.75 = 정상 관상동맥혈관과 비교하여 최대 혈류량이 25% 감소함을 의미
 
--   **Intrvascular Ultrasonography(IVUS)** : 혈관내 초음파; 초음파를 이용해 혈액이 흐르는 혈관 직경이 얼마나 줄었는지 관상동맥 단면 영상을 확인하는 [**형태학적 검사**.]{.underline}
+-   **Intrvascular Ultrasonography(IVUS)** : 혈관내 초음파; 초음파를 이용해 혈액이 흐르는 혈관 직경이 얼마나 줄었는지 관상동맥 단면 영상을 확인하는 [**형태학적 검사.**]{.underline}
 
 # Background
 
