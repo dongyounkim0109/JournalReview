@@ -260,7 +260,7 @@ editor: visual
 
     1.  **관상동맥질환 환자에서의 LDL-C 목표치**를 검토해보아야 한다.
 
-        1.  본 연구에서는 70mg/dL를 기준으로 했으므로, 2019년 [ESC/EAS guideline](doi:10.1093/eurheartj/%20ehz455)에서는 55mg/dL 이하를 권고했다.
+        본 연구에서는 70mg/dL를 기준으로 했으므로, 2019년 [ESC/EAS guideline](doi:10.1093/eurheartj/%20ehz455)에서는 55mg/dL 이하를 권고했다.
 
     2.  **LDL-C 목표치 도달을 위해서는 적극적인 노력이 필요하다.** (병용요법 등)
 
