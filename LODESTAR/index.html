@@ -1,0 +1,1138 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="index_files/libs/clipboard/clipboard.min.js"></script>
+<script src="index_files/libs/quarto-html/tabby.min.js"></script>
+<script src="index_files/libs/quarto-html/popper.min.js"></script>
+<script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="index_files/libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="index_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
+<link href="index_files/libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.4.552">
+
+  <meta name="author" content="Dongyoun Kim">
+  <title>Treat-to-Target or High-Intensity Statin in Coronary Artery Disease</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="index_files/libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="index_files/libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto.css">
+  <link href="index_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="index_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="index_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="index_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+
+  .callout {
+    margin-top: 1em;
+    margin-bottom: 1em;  
+    border-radius: .25rem;
+  }
+
+  .callout.callout-style-simple { 
+    padding: 0em 0.5em;
+    border-left: solid #acacac .3rem;
+    border-right: solid 1px silver;
+    border-top: solid 1px silver;
+    border-bottom: solid 1px silver;
+    display: flex;
+  }
+
+  .callout.callout-style-default {
+    border-left: solid #acacac .3rem;
+    border-right: solid 1px silver;
+    border-top: solid 1px silver;
+    border-bottom: solid 1px silver;
+  }
+
+  .callout .callout-body-container {
+    flex-grow: 1;
+  }
+
+  .callout.callout-style-simple .callout-body {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .callout.callout-style-default .callout-body {
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+
+  .callout.callout-titled.callout-style-simple .callout-body {
+    margin-top: 0.2em;
+  }
+
+  .callout:not(.callout-titled) .callout-body {
+      display: flex;
+  }
+
+  .callout:not(.no-icon).callout-titled.callout-style-simple .callout-content {
+    padding-left: 1.6em;
+  }
+
+  .callout.callout-titled .callout-header {
+    padding-top: 0.2em;
+    margin-bottom: -0.2em;
+  }
+
+  .callout.callout-titled .callout-title  p {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+    
+  .callout.callout-titled.callout-style-simple .callout-content  p {
+    margin-top: 0;
+  }
+
+  .callout.callout-titled.callout-style-default .callout-content  p {
+    margin-top: 0.7em;
+  }
+
+  .callout.callout-style-simple div.callout-title {
+    border-bottom: none;
+    font-size: .9rem;
+    font-weight: 600;
+    opacity: 75%;
+  }
+
+  .callout.callout-style-default  div.callout-title {
+    border-bottom: none;
+    font-weight: 600;
+    opacity: 85%;
+    font-size: 0.9rem;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .callout.callout-style-default div.callout-content {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .callout.callout-style-simple .callout-icon::before {
+    height: 1rem;
+    width: 1rem;
+    display: inline-block;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 1rem 1rem;
+  }
+
+  .callout.callout-style-default .callout-icon::before {
+    height: 0.9rem;
+    width: 0.9rem;
+    display: inline-block;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 0.9rem 0.9rem;
+  }
+
+  .callout-title {
+    display: flex
+  }
+    
+  .callout-icon::before {
+    margin-top: 1rem;
+    padding-right: .5rem;
+  }
+
+  .callout.no-icon::before {
+    display: none !important;
+  }
+
+  .callout.callout-titled .callout-body > .callout-content > :last-child {
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
+  }
+
+  .callout.callout-titled .callout-icon::before {
+    margin-top: .5rem;
+    padding-right: .5rem;
+  }
+
+  .callout:not(.callout-titled) .callout-icon::before {
+    margin-top: 1rem;
+    padding-right: .5rem;
+  }
+
+  /* Callout Types */
+
+  div.callout-note {
+    border-left-color: #4582ec !important;
+  }
+
+  div.callout-note .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAEU0lEQVRYCcVXTWhcVRQ+586kSUMMxkyaElstCto2SIhitS5Ek8xUKV2poatCcVHtUlFQk8mbaaziwpWgglJwVaquitBOfhQXFlqlzSJpFSpIYyXNjBNiTCck7x2/8/LeNDOZxDuEkgOXe++553zfefee+/OYLOXFk3+1LLrRdiO81yNqZ6K9cG0P3MeFaMIQjXssE8Z1JzLO9ls20MBZX7oG8w9GxB0goaPrW5aNMp1yOZIa7Wv6o2ykpLtmAPs/vrG14Z+6d4jpbSKuhdcSyq9wGMPXjonwmESXrriLzFGOdDBLB8Y6MNYBu0dRokSygMA/mrun8MGFN3behm6VVAwg4WR3i6FvYK1T7MHo9BK7ydH+1uurECoouk5MPRyVSBrBHMYwVobG2aOXM07sWrn5qgB60rc6mcwIDJtQrnrEr44kmy+UO9r0u9O5/YbkS9juQckLed3DyW2XV/qWBBB3ptvI8EUY3I9p/67OW+g967TNr3Sotn3IuVlfMLVnsBwH4fsnebJvyGm5GeIUA3jljERmrv49SizPYuq+z7c2H/jlGC+Ghhupn/hcapqmcudB9jwJ/3jvnvu6vu5lVzF1fXyZuZZ7U8nRmVzytvT+H3kilYvH09mLWrQdwFSsFEsxFVs5fK7A0g8gMZjbif4ACpKbjv7gNGaD8bUrlk8x+KRflttr22JEMRUbTUwwDQScyzPgedQHZT0xnx7ujw2jfVfExwYHwOsDTjLdJ2ebmeQIlJ7neo41s/DrsL3kl+W2lWvAga0tR3zueGr6GL78M3ifH0rGXrBC2aAR8uYcIA5gwV8zIE8onoh8u0Fca/ciF7j1uOzEnqcIm59sEXoGc0+z6+H45V1CvAvHcD7THztu669cnp+L0okAeIc6zjbM/24LgGM1gZk7jnRu1aQWoU9sfUOuhrmtaPIO3YY1KLLWZaEO5TKUbMY5zx8W9UJ6elpLwKXbsaZ4EFl7B4bMtDv0iRipKoDQT2sNQI9b1utXFdYisi+wzZ/ri/1m7QfDgEuvgUUEIJPq3DhX/5DWNqIXDOweC2wvIR90Oq3lDpdMIgD2r0dXvGdsEW5H6x6HLRJYU7C69VefO1x8Gde1ZFSJLfWS1jbCnhtOPxmpfv2LXOA2Xk2tvnwKKPFuZ/oRmwBwqRQDcKNeVQkYcOjtWVBuM/JuYw5b6isojIkYxyYAFn5K7ZBF10fea52y8QltAg6jnMqNHFBmGkQ1j+U43HMi2xMar1Nv0zGsf1s8nUsmUtPOOrbFIR8bHFDMB5zL13Gmr/kGlCkUzedTzzmzsaJXhYawnA3UmARpiYj5ooJZiUoxFRtK3X6pgNPv+IZVPcnwbOl6f+aBaO1CNvPW9n9LmCp01nuSaTRF2YxHqZ8DYQT6WsXT+RD6eUztwYLZ8rM+rcPxamv1VQzFUkzFXvkiVrySGQgJNvXHJAxiU3/NwiC03rSf05VBaPtu/Z7/B8Yn/w7eguloAAAAAElFTkSuQmCC');
+  }
+
+  div.callout-note.callout-style-default .callout-title {
+    background-color: #dae6fb
+  }
+
+  div.callout-important {
+    border-left-color: #d9534f !important;
+  }
+
+  div.callout-important .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAEKklEQVRYCcVXTWhcVRS+575MJym48A+hSRFr00ySRQhURRfd2HYjk2SSTokuBCkU2o0LoSKKraKIBTcuFCoidGFD08nkBzdREbpQ1EDNIv8qSGMFUboImMSZd4/f9zJv8ibJMC8xJQfO3HPPPef7zrvvvnvviIkpC9nsw0UttFunbUhpFzFtarSd6WJkStVMw5xyVqYTvkwfzuf/5FgtkVoB0729j1rjXwThS7Vio+Mo6DNnvLfahoZ+i/o32lULuJ3NNiz7q6+pyAUkJaFF6JwaM2lUJlV0MlnQn5aTRbEu0SEqHUa0A4AdiGuB1kFXRfVyg5d87+Dg4DL6m2TLAub60ilj7A1Ec4odSAc8X95sHh7+ZRPCFo6Fnp7HfU/fBng/hi10CjCnWnJjsxvDNxWw0NfV6Rv5GgP3I3jGWXumdTD/3cbEOP2ZbOZp69yniG3FQ9z1jD7bnBu9Fc2tKGC2q+uAJOQHBDRiZX1x36o7fWBs7J9ownbtO+n0/qWkvW7UPIfc37WgT6ZGR++EOJyeQDSb9UB+DZ1G6DdLDzyS+b/kBCYGsYgJbSQHuThGKRcw5xdeQf8YdNHsc6ePXrlSYMBuSIAFTGAtQo+VuALo4BX83N190NWZWbynBjhOHsmNfFWLeL6v+ynsA58zDvvAC8j5PkbOcXCMg2PZFk3q8MjI7WAG/Dp9AwP7jdGBOOQkAvlFUB+irtm16I1Zw9YBcpGTGXYmk3kQIC/Cds55l+iMI3jqhjAuaoe+am2Jw5GT3Nbz3CkE12NavmzN5+erJW7046n/CH1RO/RVa8lBLozXk9uqykkGAyRXLWlLv5jyp4RFsG5vGVzpDLnIjTWgnRy2Rr+tDKvRc7Y8AyZq10jj8DqXdnIRNtFZb+t/ZRtXcDiVnzpqx8mPcDWxgARUqx0W1QB9MeUZiNrV4qP+Ehc+BpNgATsTX8ozYKL2NtFYAHc84fG7ndxUPr+AR/iQSns7uSUufAymwDOb2+NjK27lEFocm/EE2WpyIy/Hi66MWuMKJn8RvxIcj87IM5Vh9663ziW36kR0HNenXuxmfaD8JC7tfKbrhFr7LiZCrMjrzTeGx+PmkosrkNzW94ObzwocJ7A1HokLolY+AvkTiD/q1H0cN48c5EL8Crkttsa/AXQVDmutfyku0E7jShx49XqV3MFK8IryDhYVbj7Sj2P2eBxwcXoe8T8idsKKPRcnZw1b+slFTubwUwhktrfnAt7J++jwQtLZcm3sr9LQrjRzz6cfMv9aLvgmnAGvpoaGLxM4mAEaLV7iAzQ3oU0IvD5x9ix3yF2RAAuYAOO2f7PEFWCXZ4C9Pb2UsgDeVnFSpbFK7/IWu7TPTvBqzbGdCHOJQSxiEjt6IyZmxQyEJHv6xyQsYk//moVFsN2zP6fRImjfq7/n/wFDguUQFNEwugAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-important.callout-style-default .callout-title {
+    background-color: #f7dddc
+  }
+
+  div.callout-warning {
+    border-left-color: #f0ad4e !important;
+  }
+
+  div.callout-warning .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAETklEQVRYCeVWW2gcVRg+58yaTUnizqbipZeX4uWhBEniBaoUX1Ioze52t7sRq6APio9V9MEaoWlVsFasRq0gltaAPuxms8lu0gcviE/FFOstVbSIxgcv6SU7EZqmdc7v9+9mJtNks51NTUH84ed889/PP+cmxP+d5FIbMJmNbpREu4WUkiTtCicKny0l1pIKmBzovF2S+hIJHX8iEu3hZJ5lNZGqyRrGSIQpq15AzF28jgpeY6yk6GVdrfFqdrD6Iw+QlB8g0YS2g7dyQmXM/IDhBhT0UCiRf59lfqmmDvzRt6kByV/m4JjtzuaujMUM2c5Z2d6JdKrRb3K2q6mA+oYVz8JnDdKPmmNthzkAk/lN63sYPgevrguc72aZX/L9C6x09GYyxBgCX4NlvyGUHOKELlm5rXeR1kchuChJt4SSwyddZRXgvwMGvYo4QSlk3/zkHD8UHxwVJA6zjZZqP8v8kK8OWLnIZtLyCAJagYC4rTGW/9Pqj92N/c+LUaAj27movwbi19tk/whRCIE7Q9vyI6yvRpftAKVTdUjOW40X3h5OXsKCdmFcx0xlLJoSuQngnrJe7Kcjm4OMq9FlC7CMmScQANuNvjfP3PjGXDBaUQmbp296S5L4DrpbrHN1T87ZVEZVCzg1FF0Ft+dKrlLukI+/c9ENo+TvlTDbYFvuKPtQ9+l052rXrgKoWkDAFnvh0wTOmYn8R5f4k/jN/fZiCM1tQx9jQQ4ANhqG4hiL0qIFTGViG9DKB7GYzgubnpofgYRwO+DFjh0Zin2m4b/97EDkXkc+f6xYAPX0KK2I/7fUQuwzuwo/L3AkcjugPNixC8cHf0FyPjWlItmLxWw4Ou9YsQCr5fijMGoD/zpdRy95HRysyXA74MWOnscpO4j2y3HAVisw85hX5+AFBRSHt4ShfLFkIMXTqyKFc46xdzQM6XbAi702a7sy04J0+feReMFKp5q9esYLCqAZYw/k14E/xcLLsFElaornTuJB0svMuJINy8xkIYuL+xPAlWRceH6+HX7THJ0djLUom46zREu7tTkxwmf/FdOZ/sh6Q8qvEAiHpm4PJ4a/doJe0gH1t+aHRgCzOvBvJedEK5OFE5jpm4AGP2a8Dxe3gGJ/pAutug9Gp6he92CsSsWBaEcxGx0FHytmIpuqGkOpldqNYQK8cSoXvd+xLxXADw0kf6UkJNFtdo5MOgaLjiQOQHcn+A6h5NuL2s0qsC2LOM75PcF3yr5STuBSAcGG+meA14K/CI21HcS4LBT6tv0QAh8Dr5l93AhZzG5ZJ4VxAqdZUEl9z7WJ4aN+svMvwHHL21UKTd1mqvChH7/Za5xzXBBKrUcB0TQ+Ulgkfbi/H/YT5EptrGzsEK7tR1B7ln9BBwckYfMiuSqklSznIuoIIOM42MQO+QnduCoFCI0bpkzjCjddHPN/F+2Yu+sd9bKNpVwHhbS3LluK/0zgfwD0xYI5dXuzlQAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-warning.callout-style-default .callout-title {
+    background-color: #fcefdc
+  }
+
+  div.callout-tip {
+    border-left-color: #02b875 !important;
+  }
+
+  div.callout-tip .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAADr0lEQVRYCe1XTWgTQRj9ZjZV8a9SPIkKgj8I1bMHsUWrqYLVg4Ue6v9BwZOxSYsIerFao7UiUryIqJcqgtpimhbBXoSCVxUFe9CTiogUrUp2Pt+3aUI2u5vdNh4dmMzOzHvvezuz8xNFM0mjnbXaNu1MvFWRXkXEyE6aYOYJpdW4IXuA4r0fo8qqSMDBU0v1HJUgVieAXxzCsdE/YJTdFcVIZQNMyhruOMJKXYFoLfIfIvVIMWdsrd+Rpd86ZmyzzjJmLStqRn0v8lzkb4rVIXvnpScOJuAn2ACC65FkPzEdEy4TPWRLJ2h7z4cArXzzaOdKlbOvKKX25Wl00jSnrwVxAg3o4dRxhO13RBSdNvH0xSARv3adTXbBdTf64IWO2vH0LT+cv4GR1DJt+DUItaQogeBX/chhbTBxEiZ6gftlDNXTrvT7co4ub5A6gp9HIcHvzTa46OS5fBeP87Qm0fQkr4FsYgVQ7Qg+ZayaDg9jhg1GkWj8RG6lkeSacrrHgDaxdoBiZPg+NXV/KifMuB6//JmYH4CntVEHy/keA6x4h4CU5oFy8GzrBS18cLJMXcljAKB6INjWsRcuZBWVaS3GDrqB7rdapVIeA+isQ57Eev9eCqzqOa81CY05VLd6SamW2wA2H3SiTbnbSxmzfp7WtKZkqy4mdyAlGx7ennghYf8voqp9cLSgKdqNfa6RdRsAAkPwRuJZNbpByn+RrJi1RXTwdi8RQF6ymDwGMAtZ6TVE+4uoKh+MYkcLsT0Hk8eAienbiGdjJHZTpmNjlbFJNKDVAp2fJlYju6IreQxQ08UJDNYdoLSl6AadO+fFuCQqVMB1NJwPm69T04Wv5WhfcWyfXQB+wXRs1pt+nCknRa0LVzSA/2B+a9+zQJadb7IyyV24YAxKp2Jqs3emZTuNnKxsah+uabKbMk7CbTgJx/zIgQYErIeTKRQ9yD9wxVof5YolPHqaWo7TD6tJlh7jQnK5z2n3+fGdggIOx2kaa2YI9QWarc5Ce1ipNWMKeSG4DysFF52KBmTNMmn5HqCFkwy34rDg05gDwgH3bBi+sgFhN/e8QvRn8kbamCOhgrZ9GJhFDgfcMHzFb6BAtjKpFhzTjwv1KCVuxHvCbsSiEz4CANnj84cwHdFXAbAOJ4LTSAawGWFn5tDhLMYz6nWeU2wJfIhmIJBefcd/A5FWQWGgrWzyORZ3Q6HuV+Jf0Bj+BTX69fm1zWgK7By1YTXchFDORywnfQ7GpzOo6S+qECrsx2ifVQAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-tip.callout-style-default .callout-title {
+    background-color: #ccf1e3
+  }
+
+  div.callout-caution {
+    border-left-color: #fd7e14 !important;
+  }
+
+  div.callout-caution .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAACV0lEQVRYCdVWzWoUQRCuqp2ICBLJXgITZL1EfQDBW/bkzUMUD7klD+ATSHBEfAIfQO+iXsWDxJsHL96EHAwhgzlkg8nBg25XWb0zIb0zs9muYYWkoKeru+vn664fBqElyZNuyh167NXJ8Ut8McjbmEraKHkd7uAnAFku+VWdb3reSmRV8PKSLfZ0Gjn3a6Xlcq9YGb6tADjn+lUfTXtVmaZ1KwBIvFI11rRXlWlatwIAAv2asaa9mlB9wwygiDX26qaw1yYPzFXg2N1GgG0FMF8Oj+VIx7E/03lHx8UhvYyNZLN7BwSPgekXXLribw7w5/c8EF+DBK5idvDVYtEEwMeYefjjLAdEyQ3M9nfOkgnPTEkYU+sxMq0BxNR6jExrAI31H1rzvLEfRIdgcv1XEdj6QTQAS2wtstEALLG1yEZ3QhH6oDX7ExBSFEkFINXH98NTrme5IOaaA7kIfiu2L8A3qhH9zRbukdCqdsA98TdElyeMe5BI8Rs2xHRIsoTSSVFfCFCWGPn9XHb4cdobRIWABNf0add9jakDjQJpJ1bTXOJXnnRXHRf+dNL1ZV1MBRCXhMbaHqGI1JkKIL7+i8uffuP6wVQAzO7+qVEbF6NbS0LJureYcWXUUhH66nLR5rYmva+2tjRFtojkM2aD76HEGAD3tPtKM309FJg5j/K682ywcWJ3PASCcycH/22u+Bh7Aa0ehM2Fu4z0SAE81HF9RkB21c5bEn4Dzw+/qNOyXr3DCTQDMBOdhi4nAgiFDGCinIa2owCEChUwD8qzd03PG+qdW/4fDzjUMcE1ZpIAAAAASUVORK5CYII=');
+  }
+
+  div.callout-caution.callout-style-default .callout-title {
+    background-color: #ffe5d0
+  }
+
+  </style>
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-dark">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">Treat-to-Target or High-Intensity Statin in Coronary Artery Disease</h1>
+  <p class="subtitle">Low-Density Lipoprotein Cholesterol-Targeting Statin Therapy Versus Intensity-Based Statin Therapy</p>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Dongyoun Kim 
+</div>
+</div>
+</div>
+
+</section>
+<section>
+<section id="definition" class="title-slide slide level1 center">
+<h1>Definition</h1>
+
+</section>
+<section id="이상지질혈증" class="slide level2 smaller">
+<h2>이상지질혈증</h2>
+<ul>
+<li><strong>Dyslipidemia</strong> : 이상지질혈증; 혈액 중에 지질 또는 지방 성분이 과다하게 많이 함유된 상태. 지단백의 대사 이상에 의해 발생하며 고콜레스테롤혈증, 고중성지방혈증, 낮은 고밀도(HDL) 콜레스테롤혈증 등의 여러 형태로 나타난다.</li>
+<li><strong>LDL</strong> (Low-density lipoprotein) <strong>cholesterol</strong> : 저밀도 지단백 콜레스테롤; 지단백의 한 형태로, 일명 ’나쁜 콜레스테롤’이라고 하는데, 이는 혈관벽에 과도한 콜레스테롤 침착을 유발해서 혈관 내경이 좁아져 말초로의 혈류 공급이 저해되는 <strong>죽상동맥경화증,</strong> <strong>심장질환</strong> 위험을 높이기 때문이다. .</li>
+</ul>
+</section>
+<section id="심혈관질환과-ldl" class="slide level2 smaller">
+<h2>심혈관질환과 LDL</h2>
+<ul>
+<li><p>LDL</p>
+<ul>
+<li><p>main causes of atherosclesosis / main target of treatment</p>
+<ul>
+<li>많은 연구 끝에 심혈관질환의 예방에는 LDL을 낮추는 것이 가장 중요하다는 것이 밝혀졌다. 이에 따라 여러 가이드라인 역시 LDL을 낮추는 것을 위주로 하고 있다.</li>
+</ul></li>
+<li><p>The lower the better?</p>
+<ul>
+<li>기존에 130mg/dL이었던 치료 목표는 시간이 지남에 따라 70mg/dL까지 내려왔고, 최근에는 55mg/dL까지 내려왔다.</li>
+</ul></li>
+</ul></li>
+<li><p><strong>A</strong>thero<strong>S</strong>clerotic <strong>C</strong>ardio<strong>V</strong>ascular <strong>D</strong>isease</p>
+<p><img data-src="images/clipboard-4096319432.png"></p></li>
+<li><p>2013년 AHA/ACC(미국심장학회) 가이드라인에서 제시된 내용으로, 아래와 같이 <strong>죽상동맥경화증성 혈관질환군</strong>을 정의하였다.</p>
+<ul>
+<li><p>급성 관상동맥 증후군, 심근경색, 협심증, 관상동맥 또는 동맥 혈관재관류술, 뇌경색, 일과성허혈, 말초혈관질환,대동맥류를 포함</p></li>
+<li><p>지질 수치를 교정하는 주 목적은 <strong>ASCVD 예방</strong>!</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="이상지질혈증의-치료" class="slide level2 scrollable">
+<h2>이상지질혈증의 치료</h2>
+<ul>
+<li><p><strong>Statin</strong> (HMG-CoA reductase inhibitor)</p>
+<ul>
+<li><p>기전 : 간(몸 속 콜레스테롤 공장)의 콜레스테롤 합성을 저하시켜 혈관 내 LDL 콜레스테롤을 줄여준다.</p></li>
+<li><p>심혈관질환자들에게서 발병하는 심근경색이나 뇌졸중 재발, 심인성 사망을 막기 위해선 LDL 콜레스테롤 수치를 낮게 유지하는 것이 무엇보다 중요하다.</p></li>
+</ul></li>
+</ul>
+<table>
+<thead>
+<tr class="header">
+<th>장점</th>
+<th>부작용</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>경화반(plaque)이 커지는 것을 억제함</td>
+<td>간독성</td>
+</tr>
+<tr class="even">
+<td>항염증 작용을 통해 경화반이 취약경화반(vulnerable plaque)으로 발전하는 것을 방지함</td>
+<td>근육통, 관절통</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><a href="https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=32313">횡문근융해증</a></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>당뇨병 발생 증가</td>
+</tr>
+</tbody>
+</table>
+<ol type="1">
+<li><strong>Treat to Target LDL-C strategy</strong> : 치료목표에 따른 스타틴 강도 조절 치료</li>
+<li><strong>High intensity statin therapy :</strong> 고강도 스타틴 유지 치료
+<ul>
+<li><p>High intensity : LDL-C를 50% 이상 감소시키는 것을 의미</p>
+<ul>
+<li>방법 : Atorvastatin 40-80 mg 또는 Rosuvastatin 20-40 mg(daily dose)을 투여한다.</li>
+</ul></li>
+</ul></li>
+</ol>
+</section></section>
+<section>
+<section id="background" class="title-slide slide level1 center">
+<h1>Background</h1>
+
+</section>
+<section id="스타틴-투여-전략" class="slide level2">
+<h2>스타틴 투여 전략</h2>
+<div class="panel-tabset">
+<ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1">1. Treat-to-Target</a></li><li><a href="#tabset-1-2"><strong>2.</strong> High Intensity Statin</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1">
+<p><strong>스타틴 강도 조절 전략 :</strong> 중등도 스타틴(moderate intensity statin)으로 시작하고 특정 LDL 콜레스테롤의 치료 목표를 정한 뒤 스타틴의 강도를 조절</p>
+<ul>
+<li><p>장점</p>
+<ul>
+<li><p>환자 개개인의 맞춤 치료가 가능</p></li>
+<li><p>환자-의사 간 소통 증가로 순응도 증가</p></li>
+<li><p>고강도 스타틴으로 생길 수 있는 부작용 감소</p></li>
+</ul></li>
+</ul>
+</div>
+<div id="tabset-1-2">
+<p><strong>고강도 스타틴 유지 전략</strong> : LDL 콜레스테롤 수치와 관계없이 고강도 스타틴을 사용</p>
+<ul>
+<li><p>일부 가이드라인에서는 LDL-C를 적어도 50% 이상 감소시키기 위해 고강도 스타틴 치료를 권장한다.</p>
+<table>
+<colgroup>
+<col style="width: 35%">
+<col style="width: 64%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>장점</th>
+<th>단점</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>스타틴 강도 조절이 필요 없어 편리</td>
+<td>스타틴 약제에 개개인의 반응이 다름</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>장기적으로 고강도 스타틴 투여로 발생하는 근육통, 간 손상, 당뇨 등 부작용 발생 위험</td>
+</tr>
+</tbody>
+</table></li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="background_2" class="slide level2">
+<h2>Background_2</h2>
+<ul>
+<li>그동안 이 <u>두 가지의 스타틴 치료 전략을 직접 (head-to-head) 비교한 임상 추적 연구는 없었다</u>.</li>
+<li><strong>LOADSTAR</strong> <strong>trial</strong> 의의 : 관상동맥질환 환자의 장기간 임상 결과 (3-year clinical outcomes)의 측면에서 treat-to-target strategy가 high-intensity statins 대비 비열등한지 검정(noninferiority)</li>
+</ul>
+</section></section>
+<section>
+<section id="method" class="title-slide slide level1 center">
+<h1>Method</h1>
+<div class="panel-tabset">
+<ul id="tabset-2" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-2-1">Study design</a></li><li><a href="#tabset-2-2">Population</a></li><li><a href="#tabset-2-3">Figure 1</a></li><li><a href="#tabset-2-4">Study Procedures</a></li><li><a href="#tabset-2-5">Randomization</a></li></ul>
+<div class="tab-content">
+<div id="tabset-2-1">
+<ul>
+<li>Investigator-initiated, randomized, multicenter, open-label, noninferiority trial
+<ul>
+<li>Multicenter : 국내 12개 병원</li>
+<li>Enrollment : 2019/9/9~2019/11/27</li>
+<li>3년간 추적 관찰함
+<ul>
+<li>추적 관찰을 위한 방문 시점 : 6w, 3, 6, 12, 24, 36m</li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+<div id="tabset-2-2">
+<ul>
+<li><p>Inclusion Criteria</p>
+<ul>
+<li><p>19세 이상</p></li>
+<li><p>임상적으로 관상동맥질환으로 진단받은 환자</p>
+<ul>
+<li>안정협심증, 불안정협심증, 심근경색</li>
+</ul></li>
+</ul></li>
+<li><p>Exclusion Criteria</p>
+<ul>
+<li>임신한 여성/임신 가능성이 있는 여성</li>
+<li>스타틴에 과민반응이나 심각한 부작용</li>
+<li>스타틴과 상호 작용하는 약물을 복용 중</li>
+<li>근육병증, 유전적 근육 장애, 갑상선 기능 저하, 알코올 남용 장애, 심한 간 기능 장애, 횡문근융해증</li>
+<li>기대 여명 3년 미만</li>
+</ul></li>
+<li><p>1년 이상 추적 불가능한 경우</p></li>
+</ul>
+</div>
+<div id="tabset-2-3">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="LODESTAR%20supplement/LOADSTAR%20Figure%201.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div>
+<div id="tabset-2-4">
+<ul>
+<li><p>스타틴 용량은 <a href="https://www.ahajournals.org/doi/full/10.1161/01.cir.0000437738.63853.7a">2013 ACA/AHA guideline</a> 을 기반으로 함.</p></li>
+<li><p><strong>Treat-To-Target</strong> <u>(이하 <strong>Target</strong>군</u>) : LDL 콜레스테롤 치료 목표(50~70㎎/dL)에 맞춘 <u>스타틴 강도 조절 전략</u></p>
+<ul>
+<li>moderate intensity statin : rosuvastatin 10 mg or atorvastatin 20 mg</li>
+<li>치료 목표 : LDL-C &lt; 70mg/dL</li>
+<li>Statin 복용 경험이 없다면 (Statin-Naive) : moderate intensity로 시작함.</li>
+<li>이미 statin 복용 중이라면 치료 목표 이상일 경우에만 증량, 치료목표에 도달 시 용량 유지</li>
+<li>치료 목표에 도달하지 못했더라도 statin 이외의 지질강하제(Ezetimibe) 처방은 하지 않음. <br><br></li>
+</ul></li>
+<li><p><strong>High-intensity Statin</strong> (<u>이하 <strong>High</strong>군</u>) : <u>고강도 스타틴 유지 전략</u></p>
+<ul>
+<li>high intensity statin : rosuvastatin 20 mg or atorvastatin 40 mg</li>
+<li>LDL-C 수치와 무관하게 용량 유지
+<ul>
+<li>단, 환자 개개인의 순응도, 임상적 상황 등에 따라 필요한 경우, 예외적으로 임상의의 판단 및 상세한 사유 보고를 통해 용량을 조절할 수 있도록 함.</li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+<div id="tabset-2-5">
+<ul>
+<li>Target, High 군에 <strong>1:1 무작위 배정/시행</strong>하고,
+<ul>
+<li>기저 LDL &gt;= 100㎎/dL 여부, 급성관상동맥증후군 여부, 당뇨 여부에 따라 <strong>층화 분석함.</strong></li>
+<li>각 그룹은 복용할 statin 종류 (rosuvastatin VS atorvastatin)에 따라 <strong>1:1 랜덤 배정</strong>함.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="criteria-of-revascularization-successful-pci" class="slide level2">
+<h2>Study Endpoint</h2>
+<div class="panel-tabset">
+<ul id="tabset-3" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-3-1">Primary Endpoint</a></li><li><a href="#tabset-3-2">Secondary Outcomes</a></li></ul>
+<div class="tab-content">
+<div id="tabset-3-1">
+<ul>
+<li><p><strong>Manor Adverse Cardiac and Cerebrovascular Events</strong> : 추적 3년 동안의 임상경과로 정의.</p>
+<ul>
+<li>구성요소 : <strong>All cause death</strong> (모든 원인에 의한 사망) + <strong>Myocardial infarction</strong> (심근경색) + <strong>Stroke</strong> (뇌졸중) + <strong>Revascularization</strong> (재관류시술)</li>
+</ul></li>
+</ul>
+</div>
+<div id="tabset-3-2">
+<ul>
+<li>(1) new- onset diabetes, (2) hospitalization due to heart failure, (3) deep vein thrombosis or pulmonary thromboembolism, (4) endovascular revascularization for peripheral artery dis- ease, (5) aortic intervention or surgery, (6) end-stage kidney disease, (7) discontinuation of study drugs due to intolerance, (8) cataract operation (9) composite of laboratory abnormalities.</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="sample-size-calculation" class="slide level2 smaller">
+<h2>Sample size calculation</h2>
+<ul>
+<li>가정 :</li>
+<li>Sampling Ratio - FFR : IVUS = 1 : 1</li>
+<li><strong>Non-inferiority margin 2.5%</strong>
+<ul>
+<li>H0 : 의 primary outcome 발생률 - 의 primary outcome은 3.5% (NI) 이상이다.</li>
+</ul></li>
+<li>Statistical Power (검정력) : 90%</li>
+<li>단측검정, 95% 신뢰구간 이용, type 1 error rate 5.0% (의료기기 검정에 사용)</li>
+<li>Sample size : 4400 명 (각 그룹당 850명) 필요</li>
+</ul>
+</section>
+<section id="statistical-analysis" class="slide level2 smaller">
+<h2>Statistical analysis</h2>
+<ul>
+<li><strong>Cox proportional-hazards regression</strong> : 실험 기관과 당뇨 여부를 고려하여 primary outcome 분석
+<ul>
+<li>proportional-hazards assumption : Hazard가 시간에 따른 비례성을 가지는지 확인하기 위해 scaled Schoenfeld residuals 를 이용 (two-sided)</li>
+</ul></li>
+<li><strong>Kaplan-Meier survival analysis</strong> with log rank test : Primary statistical method <br><br></li>
+<li><strong>Intention-to-treat</strong>, <strong>Per-Protocol</strong> 분석 모두 시행</li>
+<li>Multiple comparison 및 Multiplicity 교정은 x</li>
+</ul>
+</section></section>
+<section>
+<section id="results" class="title-slide slide level1 center">
+<h1>Results</h1>
+
+</section>
+<section id="baseline-characteristics" class="slide level2">
+<h2>Baseline characteristics</h2>
+<div class="panel-tabset">
+<ul id="tabset-4" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-4-1">Table 1.</a></li><li><a href="#tabset-4-2"><strong>Table 2.</strong></a></li><li><a href="#tabset-4-3">Figure S2</a></li><li><a href="#tabset-4-4">Summary</a></li></ul>
+<div class="tab-content">
+<div id="tabset-4-1">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/FLAVOUR%20Table%201.jpeg" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div>
+<div id="tabset-4-2">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/FLAVOUR%20Table%202.jpeg" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div>
+<div id="tabset-4-3">
+
+</div>
+<div id="tabset-4-4">
+<ul>
+<li><strong>모집 대상</strong>: 4400명</li>
+<li><strong>분석 대상</strong>: <strong>FFR 그룹 838명, IVUS 그룹 844명</strong>
+<ul>
+<li>이 중 각각 832명, 836명이 24개월 추적관찰을 완료</li>
+</ul></li>
+<li>평균 나이 65.1세, 여성 1228명 <br><br></li>
+<li></li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="outcomes" class="slide level2">
+<h2>Outcomes</h2>
+<div class="panel-tabset">
+<ul id="tabset-5" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-5-1">Table 3</a></li><li><a href="#tabset-5-2">Table S6</a></li><li><a href="#tabset-5-3"><img data-src="images/FLAVOUR%20Table%20S6.png"></a></li><li><a href="#tabset-5-4">Figure 1</a></li><li><a href="#tabset-5-5">Summary</a></li></ul>
+<div class="tab-content">
+<div id="tabset-5-1">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/FLAVOUR%20Table%203.jpeg" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div>
+<div id="tabset-5-2">
+
+</div>
+<div id="tabset-5-3">
+
+</div>
+<div id="tabset-5-4">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/FLAVOUR%20Figure%201.jpeg" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+<p>총 2년 동안 추적 관찰한 결과, 임상적 사건 발생률은 FFR군에서 8.1%, IVUS 군에서 8.5%로 FFR군의 비열등성을 증명했다.</p>
+</div>
+<div id="tabset-5-5">
+<ul>
+<li>24개월 간 Primary outcome 발생률 : <strong>FFR 그룹 8.1%, IVUS 그룹 8.5%</strong>
+<ul>
+<li>두 군간 차이는 0.4%에 불과했으며 통계적으로 의미있지 않았다. (95% 단측 신뢰구간 1.8%, 97.5% 단측 신뢰구간 2.2%)</li>
+<li>FFR 그룹은 IVUS 그룹 대비 비열등성 기준을 충족했다. (<strong>p for non-inferiority= 0.01</strong>) <br><br></li>
+</ul></li>
+<li>Secondary: 개별 임상 사건의 발생률도 유사
+<ul>
+<li>당뇨 여부, ITT or per-protocol 분석 여부를 고려해도 유사</li>
+<li>Successful PCI : FFR 그룹 50.1% vs IVUS 그룹 54.8%로 유사</li>
+<li>SAQ : 설문을 통해 환자가 주관적으로 평가한 증상 및 삶의 질도 유사</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</section></section>
+<section>
+<section id="conclusion" class="title-slide slide level1 center">
+<h1>Conclusion</h1>
+<ul>
+<li><strong>관상동맥질환 (coronary artery disease) 환자에서 3년째 사망, 심근경색, 뇌졸중, 재관류를 종합한 예후는 치료목표에 따른 스타틴 강도 조절 치료 (treat to target LDL-C strategy)가 기존의 고강도 스타틴 유지 전략(high intensity statin therapy) 대비</strong> <strong>비열등했다.</strong></li>
+<li>Treat-to-target strategy를 통해 스타틴에 대한 개개인의 약물 반응을 고려한 맞춤형 치료(tailored approach)의 가능성을 제시했다.</li>
+</ul>
+</section>
+<section id="discussion" class="slide level2">
+<h2>Discussion</h2>
+<div class="panel-tabset">
+<ul id="tabset-6" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-6-1">해석</a></li><li><a href="#tabset-6-2">후속 연구</a></li></ul>
+<div class="tab-content">
+<div id="tabset-6-1">
+<ul>
+<li><p><a href="#/criteria-of-revascularization-successful-pci">Criteria of Revascularization &amp; Successful PCI</a> 에서 확인할 수 있듯, IVUS의 PCI 시행 기준이 더 느슨하기 때문에 <strong>IVUS 군에서 PCI를 보다 많이 시행</strong>한다.</p></li>
+<li><p><u><strong>FFR 그룹</strong>이 <strong>더 적게 PCI를 받았음에도 불구하고</strong></u> (즉, 사용된 스텐트 수도 적고, 이중항혈소판 요법도 적게 시행받았음) IVUS 그룹 대비 <u><strong>예후가 비열등하고 삶의 질은 유사</strong></u><strong>했다.</strong><br><br></p>
+<ul>
+<li><p>이는 실제 협착 정도와 환자가 호소하는 임상증상이 완전히 비례하지는 않기 때문일 것으로 추측된다.</p></li>
+<li><p>예후가 비열등하므로 <strong>FFR 유도 PCI가</strong> <strong>더 적은 의료자원을 소비하고, PCI를 적게 진행하고, 항혈소판제 처방 빈도도 낮다</strong>는 측면에서 우선 고려해볼만한 이점을 가진다.</p></li>
+</ul></li>
+<li><p>의의</p>
+<ul>
+<li>최근 중재술 분야에서 발표된 좋지 않은 연구결과들(<a href="https://www.nejm.org/doi/full/10.1056/NEJMoa2112299">FAME-3</a>, <a href="https://www.nejm.org/doi/full/10.1056/NEJMoa2104650">FLOWER-MI</a> 등)로 인해 FFR을 이용한 생리학적 평가의 입지가 흔들렸으나, 이번 연구를 통해 <strong>FFR에 대한 우려를 상당 부분 해소</strong>하였다.</li>
+</ul></li>
+</ul>
+</div>
+<div id="tabset-6-2">
+<ul>
+<li><p><strong>고위험 환자</strong>에서는 어떤 차이가 있는지&nbsp;</p></li>
+<li><p>시술의 경제성을 <strong>사회·보건학적 측면에서 평가</strong>하는 <strong>비용 효과 분석</strong>에서는 어떤 검사도구가 유용한지</p></li>
+<li><p>FFR 측정 시 압력철선(pressure wire)이라는 <strong>비싼 도구를 사용하는 대신 새로운 기법</strong>을 확인하는 연구 등을 진행할 계획이다.</p></li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="limitations" class="slide level2 smaller scrollable">
+<h2>Limitations</h2>
+<ol type="1">
+<li>low-risk 환자를 대상으로 실험을 진행하여 <strong>high-risk 환자들에 적용이 어렵다.</strong></li>
+<li>시술 집도의들은 환자들이 각 군 중 <strong>어디에 속하는지 알고</strong> 있었음<br><br></li>
+<li>두 군의 재관류 빈도는 <strong>PCI 시행 기준 및 baseline characteristic에 영향</strong>을 받았다.</li>
+<li>연구의 대상이 된 FFR과 IVUS 외에도 angiography derived FFR, OCT, near-infrared spectroscopy-IVUS 등 PCI를 시행하는데에 도움을 주는 여러 평가도구가 있기 때문에 <strong>해당 도구들에 대한 비교 또한 필요</strong>하다.</li>
+<li>연구에서 정의한 PCI의 시행 기준에는 죽<strong>상판의 취약성, 병변 단계에서의 혈역학적 불안정성</strong>이 고려되지 않았다.
+<ul>
+<li><a href="https://www.ekjm.org/journal/view.php?number=21087">취약성 경화반 (vulnerable plaque)</a> : 파열되기 쉽고, 혈전을 더 잘 형성하며, 보다 빠르게 진행되어 심한 협착을 일으키는 것으로 알려져있다.</li>
+</ul></li>
+<li><strong>아시아인</strong>들을 대상으로만 연구를 진행하였다.</li>
+</ol>
+<div class="quarto-auto-generated-content">
+<div class="footer footer-default">
+<p>LOADSTAR TRIAL</p>
+</div>
+</div>
+</section></section>
+    </div>
+  </div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="index_files/libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="index_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="index_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="index_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="index_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="index_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="index_files/libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="index_files/libs/revealjs/plugin/search/search.js"></script>
+  <script src="index_files/libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="index_files/libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'slide',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+    window.document.addEventListener("DOMContentLoaded", function (event) {
+      const toggleBodyColorMode = (bsSheetEl) => {
+        const mode = bsSheetEl.getAttribute("data-mode");
+        const bodyEl = window.document.querySelector("body");
+        if (mode === "dark") {
+          bodyEl.classList.add("quarto-dark");
+          bodyEl.classList.remove("quarto-light");
+        } else {
+          bodyEl.classList.add("quarto-light");
+          bodyEl.classList.remove("quarto-dark");
+        }
+      }
+      const toggleBodyColorPrimary = () => {
+        const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+        if (bsSheetEl) {
+          toggleBodyColorMode(bsSheetEl);
+        }
+      }
+      toggleBodyColorPrimary();  
+      const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+      tabsets.forEach(function(tabset) {
+        const tabby = new Tabby('#' + tabset.id);
+      });
+      const isCodeAnnotation = (el) => {
+        for (const clz of el.classList) {
+          if (clz.startsWith('code-annotation-')) {                     
+            return true;
+          }
+        }
+        return false;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button', {
+        text: function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+      });
+      clipboard.on('success', function(e) {
+        // button target
+        const button = e.trigger;
+        // don't keep focus
+        button.blur();
+        // flash "checked"
+        button.classList.add('code-copy-button-checked');
+        var currentTitle = button.getAttribute("title");
+        button.setAttribute("title", "Copied!");
+        let tooltip;
+        if (window.bootstrap) {
+          button.setAttribute("data-bs-toggle", "tooltip");
+          button.setAttribute("data-bs-placement", "left");
+          button.setAttribute("data-bs-title", "Copied!");
+          tooltip = new bootstrap.Tooltip(button, 
+            { trigger: "manual", 
+              customClass: "code-copy-button-tooltip",
+              offset: [0, -8]});
+          tooltip.show();    
+        }
+        setTimeout(function() {
+          if (tooltip) {
+            tooltip.hide();
+            button.removeAttribute("data-bs-title");
+            button.removeAttribute("data-bs-toggle");
+            button.removeAttribute("data-bs-placement");
+          }
+          button.setAttribute("title", currentTitle);
+          button.classList.remove('code-copy-button-checked');
+        }, 1000);
+        // clear code selection
+        e.clearSelection();
+      });
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp('/' + window.location.host + '/');
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
+          }
+        }
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+        const config = {
+          allowHTML: true,
+          maxWidth: 500,
+          delay: 100,
+          arrow: false,
+          appendTo: function(el) {
+              return el.closest('section.slide') || el.parentElement;
+          },
+          interactive: true,
+          interactiveBorder: 10,
+          theme: 'light-border',
+          placement: 'bottom-start',
+        };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
+          config['offset'] = [0,0];
+          config['maxWidth'] = 700;
+        window.tippy(el, config); 
+      }
+      const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+      for (var i=0; i<noterefs.length; i++) {
+        const ref = noterefs[i];
+        tippyHover(ref, function() {
+          // use id or data attribute instead here
+          let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+          try { href = new URL(href).hash; } catch {}
+          const id = href.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
+        });
+      }
+      const findCites = (el) => {
+        const parentEl = el.parentElement;
+        if (parentEl) {
+          const cites = parentEl.dataset.cites;
+          if (cites) {
+            return {
+              el,
+              cites: cites.split(' ')
+            };
+          } else {
+            return findCites(el.parentElement)
+          }
+        } else {
+          return undefined;
+        }
+      };
+      var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+      for (var i=0; i<bibliorefs.length; i++) {
+        const ref = bibliorefs[i];
+        const citeInfo = findCites(ref);
+        if (citeInfo) {
+          tippyHover(citeInfo.el, function() {
+            var popup = window.document.createElement('div');
+            citeInfo.cites.forEach(function(cite) {
+              var citeDiv = window.document.createElement('div');
+              citeDiv.classList.add('hanging-indent');
+              citeDiv.classList.add('csl-entry');
+              var biblioDiv = window.document.getElementById('ref-' + cite);
+              if (biblioDiv) {
+                citeDiv.innerHTML = biblioDiv.innerHTML;
+              }
+              popup.appendChild(citeDiv);
+            });
+            return popup.innerHTML;
+          });
+        }
+      }
+    });
+    </script>
+    
+
+</body></html>
