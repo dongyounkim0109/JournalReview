@@ -1,5 +1,5 @@
 ---
-title: "Intravascular Imaging-Guided or Angiography-Guided Complex PCI":
+title: "Intravascular Imaging-Guided or Angiography-Guided Complex PCI""
 subtitle: "고위험 관상동맥 스텐트 시술 시혈관내 영상장비 사용은 필수적인가?":
 author: "Dongyoun Kim"
 format: 
@@ -15,29 +15,40 @@ editor: visual
 
 # Definition
 
-## 관상동맥 질환  {.smaller}
+## 관상동맥질환 {.smaller}
+
+-   관상동맥 (coronary a.) : 대동맥이 시작되는 부위에서 나와 심장을 감싸고 있으며 심장에 혈액을 공급하는 동맥혈관
+
+-   심근경색 (Myocardial Infarction) : 관상동맥이 완전히 막혀서 혈액 공급이 전혀 되지 않아 심장근육이 괴사
+
+-   치료 방법은 크게 약물치료, 관상동맥중재시술,관상동맥우회로 수술
 
 ## 관상동맥 중재시술 {.smaller}
 
--   2세대 약물방출 스텐트 (Drug-eluting stent, DES)의 개발 이후 스텐트 재협착을 포함한 임상사건의 발생률이 현저하게 감소
+-   **Revascularization** : 재관류요법; 혈류를 복원해주는 치료.
 
--   하지만 **복잡한 관상동맥 병변**은 여전히 **단순 병변**에 비해 관상동맥 중재시술 후의 예후가 유의하게 좋지 않다.
+    -   **Percutaneous Coronary Intervention(PCI)** : [경피적 관상동맥 중재술](https://www.medipana.com/health/view.php?news_idx=305824); 대퇴동맥이나 손목에 위치한 요골동맥을 통해 풍선 카테터나 [**스텐트를 삽입해 좁아지거나 막힌 심혈관을 넓혀주는 치료 방법.**]{.underline}
+        -   부작용 :
+            -   **스텐트 혈전증 -** 스텐트는 외부에서 삽입된 이물질이기 때문에, 혈액과 접촉되면 혈전이 생긴다.
+            -   **스텐트 재협착** - 스텐트가 혈관 조직에 의해 덮이는 회복 과정이 진행되고, 이때 혈관 조직이 과다하게 증식하면 재협착이 발생
+        -   2세대 약물방출 스텐트 (Drug-eluting stent, DES)의 개발 이후 스텐트 재협착을 포함한 부작용이 현저하게 감소
+        -   하지만 [**복잡한 관상동맥 병변**은 여전히 **단순 병변**에 비해 관상동맥 중재시술 후의 예후가 유의하게 좋지 않다.]{.underline}
 
 # Background
 
-## 관상동맥 중재시술과 영상검사 
+## 관상동맥 중재시술과 영상검사
 
-+---------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------+
-| 혈관조영술 (Angiography)                          | 혈관내 초음파 (Intravascular ultrasound, IVUS), 광간섭단층촬영 (Optical coherency tomography, OCT) = 관상동맥 내 영상 장비  |
-|                                                   |                                                                                                                             |
-| = 가장 기본                                       |                                                                                                                             |
-+===================================================+=============================================================================================================================+
-| 죽상경화반의 모양, 성질, 및 양을 파악하기 어려움  | 죽상경화반의 분포와 성질에 대한 정보를 제공                                                                                 |
-+---------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------+
-| 최적의 스텐트 삽입 여부를 판단하기 어려움         | 최적의 스텐트 사이즈와 landing zone을 결정하는데 도움                                                                       |
-|                                                   |                                                                                                                             |
-|                                                   | 스텐트 삽입 후 발생할 수 있는 malapposition, underexpansion, dissection 등의 급성 합병증을 발견할 수 있는 정보를 제공       |
-+---------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------+
++--------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------+
+| 혈관조영술 (Angiography)                         | 혈관내 초음파 (Intravascular ultrasound, IVUS), 광간섭단층촬영 (Optical coherency tomography, OCT) = 관상동맥 내 영상 장비 |
+|                                                  |                                                                                                                            |
+| = 가장 기본                                      |                                                                                                                            |
++==================================================+============================================================================================================================+
+| 죽상경화반의 모양, 성질, 및 양을 파악하기 어려움 | 죽상경화반의 분포와 성질에 대한 정보를 제공                                                                                |
++--------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------+
+| 최적의 스텐트 삽입 여부를 판단하기 어려움        | 최적의 스텐트 사이즈와 landing zone을 결정하는데 도움                                                                      |
+|                                                  |                                                                                                                            |
+|                                                  | 스텐트 삽입 후 발생할 수 있는 malapposition, underexpansion, dissection 등의 급성 합병증을 발견할 수 있는 정보를 제공      |
++--------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------+
 
 ## 기존 연구의 한계 {.smaller}
 
@@ -49,167 +60,199 @@ editor: visual
 
 # Method
 
-In this multicenter, open-label trial in South Korea, we randomly assigned patients with complex coronary-artery lesions in a 2:1 ratio to undergo either intravascular imaging--guided PCI or angiography-guided PCI. In the intra- vascular imaging group, the choice between intravascular ultrasonography and optical coherence tomography was at the operators' discretion. The primary end point was a composite of death from cardiac causes, target-vessel--related myocar- dial infarction, or clinically driven target-vessel revascularization. Safety was also assessed.
-
 ::: panel-tabset
 ## Study design {.smaller}
 
 -   investigator-initiated, prospective, multicenter, randomised, open-label trial
     -   Multi-center : 국내 20개 기관
     -   Enrollment :
-    -   년 동안 추적관찰함.
+    -   년 동안 추적관찰함. 1, 6, 12m 후에 추적 후 이후 매년
 
 ## Population {.smaller}
 
 -   Inclusion Criteria
 
+    -   [복잡한 관상동맥병변]{.underline}\*에 대해 관상동맥 중재시술(PCI)이 필요한 19세 이상
+
+        -   [Complex coronary-artery lesion]{.underline} : 진성분지병변 (true bifurcation lesion), 만성폐색병변 (chronic total occlusion), 좌주간지병변 (unprotected left main disease), 스텐트 재협착병변 (in-stent restenosis), 긴 스텐트 삽입 (expected stent length of at least 38 mm), 다혈관 치료 (multivessel PCI involving at least 2 major epicardial coronary arteries), 3개 이상 스텐트 삽입이 필요한 병변 (at least 3 planned stents), 심한 석회화 병변 (severely calcified lesions), 관상동맥 개구부 병변 (ostial lesions of a major epicardial coronary artery)
+
 -   Exclusion Criteria
+
+    -   PCI를 시행할 수 없는 병변
+
+    -   심인성 쇼크
+
+    -   aspirin, clopidogrel 등 약제과민성/금기
+
+    -   임신/수유 중인 여성
 
 ## Study Design
 
-## Study Procedures {.smaller}
+![](RENOVATE%20Supplement/RENOVATE%20Study%20design.png){fig-align="center"}
 
-1.  **moderate-intensity statin with ezetimibe combination therapy** [(이하 **Combination**군]{.underline}) : 병용요법
+## Randomization {.smaller}
 
-2.  **high-intensity statin monotherapy** ([이하 **High**군]{.underline}) : [고강도 스타틴 단독요법]{.underline}
+-   Intravascular Imaging 군 : 관상동맥내 영상장비를 사용해 관상동맥 중재시술 진행
+-   Angiography 군 :
+-   Intravascular-imaging, Angiography 군에 **2:1 무작위 배정**하고,
+    -   기관, 안정형 협심증/급성관상동맥증후군 여부에 따라 **층화 분석함.**
 
-## Randomization
+## Intervention
 
--   Combination, High 군에 **1:1 무작위 배정**하고,
-    -   기저 LDL-C 수치 (100mg/dL 기준), 당뇨 여부에 따라 **층화 분석함.**
+-   Intravascular Imaging 군에서 **혈관내 초음파(intravascular ultrasonography) VS 광간섭단층촬영(OCT)**의 선택은 병변의 특성과 임상적 판단에 따라 **시술의의 결정에 따름.** 
+
+-   **Stent optimization**: 스텐트 위치가 적절하고, 가장자리 박리 없이 충분히 팽창한 경우
+
+    -   스텐츠 최적화가 이루어지지 않은 경우 추가 팽창/스텐트 삽입/혈관 내측 재검사를 시행함.
 :::
 
-## Study Endpoint {#criteria-of-revascularization-successful-pci}
+## Study Endpoint
 
 ::: panel-tabset
 ## Primary Endpoint {.smaller}
 
--   아래로 구성된, 3년 동안의 심뇌혈관질환 사망/발생률
--   구성요소 : **cardiovascular death** (심혈관질환에 의한 사망) + **major cardiovascular events** (주요 심혈관질환) + **non-fatal stroke** (비치명적 뇌졸중)
+-   **Target vessel failure(TVF)**; 표적혈관실패 발생률, 아래로 구성됨.
+-   구성요소 : **death from cardiac causes** (심혈관질환에 의한 사망) + **target-vessel--related myocardial infarction** (표적혈관 관련 심근경색) + **target-vessel revascularization** (표적혈관 재관류)
 
 ## Secondary Endpoint {.smaller}
+
+-   Primary endpoint의 구성요소들
+
+-   시술과 관련한 심근경색(procedure-related MI)을 제외한 심인성 사망
+
+-   스텐트 혈전증 (stent thrombosis)
+
+-   **Serious adverse events monitoring**: 관상동맥 천공, 응급 재시술, 울혈성 심부전, 심인성 쇼크, 조영제 부작용, 출혈, 동맥박리 등
 :::
 
 ## Statistical Analysis
 
 ::: panel-tabset
-## Objectives
+## Sample size {.smaller}
 
--   Primary Objective 가 유의하게 확인되는 경우 Secondary Objective 검증
-    -   **주요 목표** (primary objective)
-        -   primary endpoint의 발생
-        -   Combination 군의 High 군 대비 **비열등성** 검정
-    -   **이차적 목표** (secondary objective)
-        -   efficacy endpoint 인 **목표 LDL-C(\<70mg/dL)** 의 달성
-        -   Combination 군의 High 군 대비 **우월성** 검정
-
-## Primary Objective {.smaller}
-
--   가정 : 3년째 primary outcome의 발생률이 Combination 그룹에서는 13%, High 그룹에서는 14%라고 가정함. (추정 근거 : IMPROVE-IT TRIAL)
--   intention-to-treat population with **a non-inferiority margin of 2.0%**
-    -   primary endpoint 발생률 차이에 대한 신뢰구간 상한 \< 2.0%일 경우 비열등
--   Statistical Power (검정력) : 80%
--   단측검정, type 1 error rate 5.0%
--   탈락률 15% 예상
--   **Sample size : 3780명 (각 그룹당 1890명)** 필요
-
-## Secondary Objective {.smaller}
-
--   가정 : 3년째 목표 LDL-C의 달성률이 Combination 그룹에서는 70%, High 그룹에서는 50%라고 가정함. (추정 근거 : IMPROVE-IT TRIAL)
--   Statistical Power (검정력) : 80%
+-   가정 : 매년 TVF 발생률을 intravascular imaging 군에서 3.6%, angiography 군으로 6.0%로 가정함.
+-   귀무가설 : 두 그룹에서 TVF 발생률 차이가 없다. (log rank test 이용)
+-   Statistical Power (검정력) : 90%
 -   양측검정, type 1 error rate 5.0%
--   탈락률 15% 예상
--   **Sample size : 220명** 필요 -\> primary objective 검증에 필요한 수만으로도 충분!
+-   탈락률 5% 예상
+-   **Sample size : 1620명** 으로 추정
 
 ## Statistical analysis {.smaller}
 
--   Primary endpoint
+-   **Kaplan-Meier survival analysis**
 
-    -   **Kaplan-Meier survival analysis** with log rank test: 3년 primary outcome의 누적 발생률 추정
-        -   time : 등록 시점\~event of interest가 발생한 시점
-    -   **Cox proportional-hazards regression**
-        -   95% 신뢰구간을 가진 hazard ration 추정
+    -   Primary endpoint 분석 시 비심장 원인으로 인한 사망의 위험을 **조정**하기 위해 **Fine and Gray** 방법(subdistribution hazard model)을 사용
 
--   Secondary endpoint - efficacy
+-   **Cox proportional-hazards regression :** 치료 효과 추정
 
-    -   **log rank test**
+    -   proportional-hazards assumption : Hazard가 시간에 따른 비례성을 가지는지 확인하기 위해 scaled Schoenfeld residuals 를 이용 (two-sided)
 
 -   **Intention-to-treat** 분석 시행
 
 -   Multiplicity 교정은 x
 
--   결측치는 대체하지 않고 제거
+-   결측치는 추론하지 않고 제거
 :::
 
 # Results
-
-A total of 1639 patients underwent randomization, with 1092 assigned to undergo intravascular imaging--guided PCI and 547 assigned to undergo angiography- guided PCI. At a median follow-up of 2.1 years (interquartile range, 1.4 to 3.0), a primary end-point event had occurred in 76 patients (cumulative incidence, 7.7%) in the intravascular imaging group and in 60 patients (cumulative incidence, 12.3%) in the angiography group (hazard ratio, 0.64; 95% confidence interval, 0.45 to 0.89; P = 0.008). Death from cardiac causes occurred in 16 patients (cumulative incidence, 1.7%) in the intravascular imaging group and in 17 patients (cumulative incidence, 3.8%) in the angiography group; target-vessel--related myocardial in- farction occurred in 38 (cumulative incidence, 3.7%) and 30 (cumulative incidence, 5.6%), respectively; and clinically driven target-vessel revascularization in 32 (cumulative incidence, 3.4%) and 25 (cumulative incidence, 5.5%), respectively. There were no apparent between-group differences in the incidence of procedure- related safety events.
 
 ## Baseline characteristics
 
 ::: panel-tabset
 ### Table 1.
 
-![](RACING%20Supplement/RACING%20Table%201.png){fig-align="center"}
+![](RENOVATE%20Supplement/RENOVATE%20Table%201.jpeg){fig-align="center"}
 
 ### Summary
 
--   **모집 대상**: 3780명 (2017/2/14\~2018/12/18)
--   **분석 대상**: **Combination 그룹 1894명, High 그룹 1886명**
-    -   이 중 3622명(95.8%)에 대해서 3년 추적 완료
--   [**두 그룹 사이 baseline characteristics 에는 통계적으로 유의미한 차이가 없었다.**]{.underline}
--   평균 나이 64세, 남성이 75%
--   무작위 배정 전 환자들이 복용 중이었던 statin : high-intensity statin 38%, moderate-intensity statin 36%, 13% moderate-intensity statin + ezetimibe
+-   총 1639명 (2018/5\~2021/5)
+    -   Intravascular Imaging **그룹 1092명,** Angiography **그룹 547명**으로 무작위 배정
+-   [**두 그룹 사이 baseline characteristics 은 유사**]{.underline}
+-   평균 나이 65.6세, 남성이 79.3%
+-   안정형 협심증 (stable ischemic heart disease, SIHD) 49.2%, 급성 관상동맥 증후군 (Acute coronary syndrome, ACS) 50.8%
+:::
+
+## Procedural characteristics
+
+::: panel-tabset
+### Table 2
+
+![](RENOVATE Supplement/RENOVATE Table 2.jpeg){fig-align="center"}
+
+### Summary
+
+-   두 그룹의 관상동맥 병변 종류, 관상동맥 질환의 심각도 및 PCI 과정은 유사
+
+-   Intravascular imaging 군의 73.3%는 IVUS(혈관 내 초음파), 25.5%는 OCT를 사용
+
+    -   IVUS로 평가된 병변 중 55.5%(659/1188)가 , OCT로 평가된 병변 중 65.9%)(238/361)가 모든 stent optimization 기준을 충족
+
+        -   stent optimization = 연구 시작전 정의한 시술 최적화
+
+-   Drug-eluting stent를 이용한 PCI 성공율은 98.4% (1613/1639)
+
+-   두 그룹의 시술 관련 합병증 발생은 유사 (3.4% vs 3.3%)
 :::
 
 ## Outcomes
 
 ::: panel-tabset
-### Figure 2
+### Figure 1
 
-### Table 2
+![](RENOVATE Supplement/RENOVATE Figure 1.jpeg){fig-align="center"}
+
+### Table 3
+
+![](RENOVATE Supplement/RENOVATE Table 3.jpeg){fig-align="center"}
 
 ### Primary/Secondary Outcome {.smaller}
 
--   **Primary outcome** (투여 후 3년 시점에서의 심혈관계 사망, 뇌졸중, 주요 심혈관 사건 발생률) : **Combination 그룹 9.1%, High 그룹 9.9%**
-    -   두 군간 차이는 -0.78%로 나타나 통계적으로 의미있지 않다. (90% 신뢰구간 -2.39 \~ 0.83%)
-    -   Combination 그룹은 High 그룹 대비 비열등 (**p-value \< 0.001**) <br><br>
+-   **Primary outcome** (Target vessel failure 발생률) : Intravascular imaging **7.7%,** Angiography 12.3%
+
+    -   Intravascular imaging 군의 위험도가 36% 유의하게 낮은 결과 (hazard ratio, 0.64; 95% confidence interval, 0.45 to 0.89; P=0.008)
+
+    -   연구 시작 전 정의한 **시술 최적화 (procedural optimization)**
+
+        -   시술 최적화 달성 intravascular imaging 군에서 6.0%
+
+        -   시술 최적화를 달성하지 못한 intravascular imaging 군에서 8.9%
+
+        -   angiography 군에서 12.3%의 primary outcome 발생률
+
 -   **Secondary outcome**
 
-1.  [**LDL-C 목표 수치 (\< 70mg/dL) 도달률**]{.underline}
+    -   아래 항목에서 **Intravascular imaging 군의 누적발생률**이 유의미하게 낮음 <br><br>
 
--   [**목표도달율은모든 관찰시점에서 병용요법이 유의하게 우수**한 것으로 확인되었다.]{.underline} (all p value \< 0.0001)
-    -   고강도 스타틴 단독 요법군(High)
-        -   1년 : 55%, 2년 : 60%, **3년 : 58%**
-    -   병용요법군(Combination)
-        -   1년 : 73%, 2년 : 75%, **3년 : 72%**)
--   사후검정 : LDL-C \<55 mg/dL 도달율도 [**모든 관찰시점에서 병용요법이 유의하게 우수**]{.underline}
-    -   고강도 스타틴 단독 요법군(High)
-        -   1년 : 25%, 2년 : 29%, 3년 : 25%
-    -   병용요법군(Combination)
-        -   1년 : 42%, 2년 : 45%, 3년 : 42%
+        -   [시술과 관련한 심근경색(procedure-related MI)을 제외한 심인성 사망]{.underline}
 
-2.  [중등도\~고용량 **스타틴 부작용이나 불내성으로** 인한 **약제 중단 또는 용량 감량**한 환자 비율]{.underline}
+            -   Intravascular 5.1% vs Angiography 8.7%, HR 0.59, 95% CI 0.39\~0.90
 
--   고용량 스타틴 단독요법군(8.2%)과 비교하여 **병용요법군 (4.8%)에서 더 적게 발생** (p\<0.0001)
+        -   [스텐트 혈전증 (stent thrombosis)]{.underline}
+
+            -   Intravascular 0.1% vs. Angiography 0.7%; HR 0.25; 95% 95% Cl, 0.02\~ 2.75
 :::
 
 # Conclusion
 
--   Among patients with complex coronary-artery lesions, intravascular imaging-- guided PCI led to a lower risk of a composite of death from cardiac causes, target- vessel--related myocardial infarction, or clinically driven target-vessel revascular- ization than angiography-guided PCI.
--   ASCVD 환자에서, 3년 심혈관계 사망, 뇌졸중, 또는 주요 심혈관 사건 발생률을 종합한 예후는 **중등도 강도의 스타틴과 에제티미브(Ezetimibe) 병합 요법이** 고강도 스타틴 단독요법 대비 **비열등했다.**
--   **병합 요법**에서 70mg/dL 이하의 **LDL 콜레스테롤 농도에 도달한 환자의 비율이 높았으며,** **부작용**으로 인한 약물 중단 또는 용량 감소가 **적게 관찰되었다.**
+-   **관상동맥 복잡병변에 대한 고위험 중재시술 시, TVF 측면에서 Intravascular imaging** g**uided PCI가 angiography-guided PCI보다 환자의 예후를 유의하게 개선하였다.**
 
-## Discussion
+    -   TVF = 심혈관계 사망, 표적혈관 관련 심근경색, 표적혈관 재관류 발생률을 종합한 예후
+
+# Discussion
 
 ::: panel-tabset
 ### Discussion Points {.smaller}
 
-1.  
+1.  본 연구는 선행 연구들과 달리 **다양한 종류의 complex lesion을 포함**했고, 재시술뿐 아니라 **심근경색과 사망의 측면에서도 intravascular imaging의 이점이 있음**을 밝혔다.<br><br>
 
-2.  
+-   본 연구의 강점은 **큰 표본수, 최소한의 crossover, 긴 추적관찰, 낮은 탈락율, 환자 선정기준의 (complex lesion) 엄격한 관리**에 있다.
 
-3.  
+2.  Stent optimization이 intravascular imaging, angiography 군에서 모두 낮게 측정되었으나 (45.4%, 58.9%) revascularization의 누적발생률은 모두 낮았다. (6.3%, 7.1%) <br><br>
+
+-   즉, 선행 연구들에서는 intravascular imaging의 이점이 낮은 revascularization 빈도라고 보고되었으나 <br><br>
+-   본 연구에서는 되려 revascularization은 차이가 없고, 오히려 표젹혈관 관련 심근경색, 심인성 사망이 37% 적게 보고되었다.<br><br>
+-   이 차이는 본 연구의 장점인 큰 표본수와 긴 관찰기간에서 기인한 것으로 보이지만, **stent optimization의 현 기준이 환자 예후를 제대로 반영하지 못하고 있을 가능성** 역시 시사한다.<br><br>
+-   또한 본 연구는 **complex lesion에서 imaging-guided PCI의 routine use가 고려되어야 함**을 시사한다.
 
 ## 의의
 
@@ -219,3 +262,10 @@ A total of 1639 patients underwent randomization, with 1092 assigned to undergo 
 :::
 
 ## Limitations {.smaller}
+
+-   시술자는 intervention의 종류를 안 채로 시술을 시행했다 **(open-label)**.<br><br>
+-   임상시험이 **동양아시아 인종**에 대해서만 이뤄졌고, 절반 이상이 **단일 기관**에서 모집되었다.
+-   Intravascular imaging 군의 **Stent optimization은 45.4%밖에 되지 않았다.**<br><br>
+-   두 군의 **Stent optimization 평가방식이 달랐다.**<br><br>
+-   임상시험이 **동양아시아 인종**에 대해서만 이뤄졌고, 절반 이상이 **단일 기관**에서 모집되었다.<br><br>
+-   Intravascular imaging의 가격이 상대적으로 비싸 **cost-effectiveness analyses가 추가로 필요하다.**
