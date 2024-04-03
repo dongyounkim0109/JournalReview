@@ -1,5 +1,5 @@
 ---
-title: "Moderate statin+Ezetimibe VS High Statin in ASCVD patients":
+title: "Moderate statin+Ezetimibe VS High Statin in ASCVD patients"
 subtitle: "Long-term efficacy and safety of moderate-intensity statin with ezetimibe VS high-intensity monotherapy"
 author: "Dongyoun Kim"
 format: 
@@ -159,7 +159,7 @@ editor: visual
 ## Statistical Analysis
 
 ::: panel-tabset
-## Objectives 
+## Objectives
 
 -   Primary Objective 가 유의하게 확인되는 경우 Secondary Objective 검증
     -   **주요 목표** (primary objective)
@@ -179,7 +179,7 @@ editor: visual
 -   탈락률 15% 예상
 -   **Sample size : 3780명 (각 그룹당 1890명)** 필요
 
-## Secondary Objective  {.smaller}
+## Secondary Objective {.smaller}
 
 -   가정 : 3년째 목표 LDL-C의 달성률이 Combination 그룹에서는 70%, High 그룹에서는 50%라고 가정함. (추정 근거 : IMPROVE-IT TRIAL)
 -   Statistical Power (검정력) : 80%
@@ -214,7 +214,7 @@ editor: visual
 ::: panel-tabset
 ### Table 1.
 
-![](RACING Supplement/RACING Table 1.png){fig-align="center"}
+![](RACING%20Supplement/RACING%20Table%201.png){fig-align="center"}
 
 ### Summary
 
@@ -235,13 +235,13 @@ editor: visual
 ## Outcomes
 
 ::: panel-tabset
-### Figure 2 
+### Figure 2
 
-![](RACING Supplement/RACING Figure 2.jpg){fig-align="center"}
+![](RACING%20Supplement/RACING%20Figure%202.jpg){fig-align="center"}
 
 ### Table 2
 
-![](RACING Supplement/RACING Table 2.png){fig-align="center"}
+![](RACING%20Supplement/RACING%20Table%202.png){fig-align="center"}
 
 ### Primary/Secondary Outcome {.smaller}
 
@@ -252,7 +252,7 @@ editor: visual
 
 1.  [**LDL-C 목표 수치 (\< 70mg/dL) 도달률**]{.underline}
 
-![](RACING Supplement/RACING Table 3.png){fig-align="center"}
+![](RACING%20Supplement/RACING%20Table%203.png){fig-align="center"}
 
 -   [**목표도달율은모든 관찰시점에서 병용요법이 유의하게 우수**한 것으로 확인되었다.]{.underline} (all p value \< 0.0001)
     -   고강도 스타틴 단독 요법군(High)
@@ -267,13 +267,13 @@ editor: visual
 
 2.  [중등도\~고용량 **스타틴 부작용이나 불내성으로** 인한 **약제 중단 또는 용량 감량**한 환자 비율]{.underline}
 
-    ![](RACING Supplement/RACING Table 4.png)
+    ![](RACING%20Supplement/RACING%20Table%204.png)
 
 -   고용량 스타틴 단독요법군(8.2%)과 비교하여 **병용요법군 (4.8%)에서 더 적게 발생** (p\<0.0001)
 
 ### Subgroup Analysis, Per-Protocol Population
 
-![](RACING Supplement/RACING Figure 3.png){fig-align="center"}
+![](RACING%20Supplement/RACING%20Figure%203.png){fig-align="center"}
 
 -   Subgroup, Per-Protocol 분석에서도 결과의 경향성은 유지 (Absolute difference는 산술적 수치상으로는 모두 더 낮은 결과. 다만, 통계적으로 유의한 차이를 보이지는 x)
 :::
