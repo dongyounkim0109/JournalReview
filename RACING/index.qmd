@@ -65,7 +65,9 @@ editor: visual
 
         -   LDL 수치를 적정 수치까지 낮출 수 없을 경우 고용량 스타틴으로 넘어가야 할지, 저용량 스타틴에 비스타틴계인 에제티미브를 더한 복합 요법을 선택해야 할지에 대한 답은 주지 못했다.
 
--   즉, AVCSD 환자에 대해 [두 치료 전략의 장기적인 임상 결과를 비교한 RCT 증거가 아직까지는 부족했다]{.underline}.
+-   즉, AVCSD 환자에 대해 [두 치료 전략(용량 줄인 스타틴+에제티미브 VS 기존의 고용량 스타틴 단독)의 임상 결과를 비교한 **1년 이상의 장기적인** 추적 RCT 연구는 없었다]{.underline}.
+
+    -   이 때문에 기존 가이드라인에서는 최대 가용 스타틴에도 LDL-C가 조절되지 않을 때에 도달하고 나서야 ezetimibe의 병용을 권고한다.
 
 -   **RACING** **trial** 의의 : 3년 간의 효능과 안전성 (3-year clinical efficacy and safety)의 측면에서 **moderate-intensity statin+ezetimibe 병용 요법이 high-intensity statins 대비 비열등한지 검정(noninferiority)**
 
@@ -171,6 +173,7 @@ editor: visual
 
 -   가정 : 3년째 primary outcome의 발생률이 Combination 그룹에서는 13%, High 그룹에서는 14%라고 가정함. (추정 근거 : IMPROVE-IT TRIAL)
 -   intention-to-treat population with **a non-inferiority margin of 2.0%**
+    -   primary endpoint 발생률 차이에 대한 신뢰구간 상한 \< 2.0%일 경우 비열등
 -   Statistical Power (검정력) : 80%
 -   단측검정, type 1 error rate 5.0%
 -   탈락률 15% 예상
@@ -186,14 +189,22 @@ editor: visual
 
 ## Statistical analysis {.smaller}
 
--   **Kaplan-Meier curve**: 3년째의 primary outcome의 누적 발생률 추정
-    -   사건 발생까지의 시간(time to event)를 분석 대상으로,
-    -   time : 등록 시점\~event of interest가 발생한 시점까지 경과한 시간
--   **log rank test**
--   **비열등성 검정**
-    -   Kaplan-Meier 생존 곡선에서 failure rate에 대한 z 통계량을 추정하기 위해 [Com-Nougue 방법](https://pubmed.ncbi.nlm.nih.gov/8210831/)을 사용
-    -   표준 오차를 추정하기 위해 [Greenwood formula](https://www.stat.berkeley.edu/~freedman/greenwd.pdf)를
--   **Intention-to-treat**, **Per-Protocol** 분석 모두 시행
+-   Primary endpoint
+
+    -   **Kaplan-Meier survival analysis** with log rank test: 3년 primary outcome의 누적 발생률 추정
+        -   time : 등록 시점\~event of interest가 발생한 시점
+    -   **Cox proportional-hazards regression**
+        -   95% 신뢰구간을 가진 hazard ration 추정
+
+-   Secondary endpoint - efficacy
+
+    -   **log rank test**
+
+-   **Intention-to-treat** 분석 시행
+
+-   Multiplicity 교정은 x
+
+-   결측치는 대체하지 않고 제거
 :::
 
 # Results
@@ -209,40 +220,67 @@ editor: visual
 
 -   **모집 대상**: 3780명 (2017/2/14\~2018/12/18)
 -   **분석 대상**: **Combination 그룹 1894명, High 그룹 1886명**
-    -   이 중 명에 대해서 3년 추적 완료
--   두 그룹 사이 baseline characteristics 에는.
--   평균 나이 65.1세
+    -   이 중 3622명(95.8%)에 대해서 3년 추적 완료
+-   [**두 그룹 사이 baseline characteristics 에는 통계적으로 유의미한 차이가 없었다.**]{.underline}
+-   평균 나이 64세, 남성이 75%
+-   무작위 배정 전 환자들이 복용 중이었던 statin : high-intensity statin 38%, moderate-intensity statin 36%, 13% moderate-intensity statin + ezetimibe
+-   처방받은 용량대로 복용 환자 비율
+
+|                  | 연구 1년째 | 연구 2년째 | 연구 3년째 |
+|------------------|------------|------------|------------|
+| Combination 그룹 | 95%        | 94%        | 93%        |
+| High 그룹        | 94%        | 91%        | 90%        |
 :::
 
 ## Outcomes
 
 ::: panel-tabset
-### Figure
+### Figure 2 
 
-### Table
+![](RACING Supplement/RACING Figure 2.jpg){fig-align="center"}
 
-### Summary {.smaller}
+### Table 2
 
-[**Primary/Secondary Outcome**]{.underline}
+![](RACING Supplement/RACING Table 2.png){fig-align="center"}
 
--   **Primary outcome** (3년 간 심혈관계 사망, 뇌졸중, 주요 심혈관 사건 발생률) : **Combination 그룹 9.1%, High 그룹 9.9%**
+### Primary/Secondary Outcome {.smaller}
+
+-   **Primary outcome** (투여 후 3년 시점에서의 심혈관계 사망, 뇌졸중, 주요 심혈관 사건 발생률) : **Combination 그룹 9.1%, High 그룹 9.9%**
     -   두 군간 차이는 -0.78%로 나타나 통계적으로 의미있지 않다. (90% 신뢰구간 -2.39 \~ 0.83%)
-    -   Combination 그룹은 High 그룹 대비 비열등성 기준을 충족했다. (**p-value \< 0.001**) <br><br>
--   **Secondary outcome**:
+    -   Combination 그룹은 High 그룹 대비 비열등 (**p-value \< 0.001**) <br><br>
+-   **Secondary outcome**
 
-1.  매년 추적관찰했을 때의 **LDL-C 수치 \< 70mg/dL 도달율** (all p value \< 0.0001)
+1.  [**LDL-C 목표 수치 (\< 70mg/dL) 도달률**]{.underline}
 
--   고강도 스타틴 단일 제제(High)보다는 (1년 : 55%, 2년 : 60%, **3년 : 58%**)
--   **병합 치료군(Combination)에서 더욱 빈번하게 관찰되었다.** (1년 : 73%, 2년 : 75%, **3년 : 72%**)
+![](RACING Supplement/RACING Table 3.png){fig-align="center"}
 
-2.  중등도\~고용량에서 발생할 수 있는 스타틴의 **부작용**이나 불내성으로 인한 **약제 중단 또는 용량 감량**
+-   [**목표도달율은모든 관찰시점에서 병용요법이 유의하게 우수**한 것으로 확인되었다.]{.underline} (all p value \< 0.0001)
+    -   고강도 스타틴 단독 요법군(High)
+        -   1년 : 55%, 2년 : 60%, **3년 : 58%**
+    -   병용요법군(Combination)
+        -   1년 : 73%, 2년 : 75%, **3년 : 72%**)
+-   사후검정 : LDL-C \<55 mg/dL 도달율도 [**모든 관찰시점에서 병용요법이 유의하게 우수**]{.underline}
+    -   고강도 스타틴 단독 요법군(High)
+        -   1년 : 25%, 2년 : 29%, 3년 : 25%
+    -   병용요법군(Combination)
+        -   1년 : 42%, 2년 : 45%, 3년 : 42%
 
--   고용량 스타틴 단일 그룹(8.2%)과 비교하여 **병합 치료군(4.8%)에서 더 적게 발생하였다.** (p\<0.0001)
+2.  [중등도\~고용량 **스타틴 부작용이나 불내성으로** 인한 **약제 중단 또는 용량 감량**한 환자 비율]{.underline}
+
+    ![](RACING Supplement/RACING Table 4.png)
+
+-   고용량 스타틴 단독요법군(8.2%)과 비교하여 **병용요법군 (4.8%)에서 더 적게 발생** (p\<0.0001)
+
+### Subgroup Analysis, Per-Protocol Population
+
+![](RACING Supplement/RACING Figure 3.png){fig-align="center"}
+
+-   Subgroup, Per-Protocol 분석에서도 결과의 경향성은 유지 (Absolute difference는 산술적 수치상으로는 모두 더 낮은 결과. 다만, 통계적으로 유의한 차이를 보이지는 x)
 :::
 
 # Conclusion
 
--   ASCVD 환자에서, 3년 간 심혈관계 사망, 뇌졸중, 또는 주요 심혈관 사건 발생률을 종합한 예후는 **중등도 강도의 스타틴과 에제티미브(Ezetimibe) 병합 요법이** 고강도 스타틴 단독요법 대비 **비열등했다.**
+-   ASCVD 환자에서, 3년 심혈관계 사망, 뇌졸중, 또는 주요 심혈관 사건 발생률을 종합한 예후는 **중등도 강도의 스타틴과 에제티미브(Ezetimibe) 병합 요법이** 고강도 스타틴 단독요법 대비 **비열등했다.**
 -   **병합 요법**에서 70mg/dL 이하의 **LDL 콜레스테롤 농도에 도달한 환자의 비율이 높았으며,** **부작용**으로 인한 약물 중단 또는 용량 감소가 **적게 관찰되었다.**
 
 ## Discussion
@@ -250,22 +288,37 @@ editor: visual
 ::: panel-tabset
 ### Discussion Points {.smaller}
 
-1.  
+1.  Superiority trial로 평가하기 위해서는 초기에 예상했던 것보다 더 많은 환자 수가 필요했다.
 
-2.  
+2.  (기존에 사용하는 중등도 스타틴으로 LDL 을 충분히 낮출 수 없을 경우)
 
-3.  
+    Q. statin을 고강도로 증량? 아니면 ezetimibe를 더한 복합 요법을 선택?
+
+    A. [스타틴 부작용 및 불내성 위험이 높은 환자]{.underline}에서는 statin 증량 대신 [ezetimibe 병용요법을 우선 고려해볼 수 있다.]{.underline}
+
+    -   스타틴 불내성 위험인자 : 고령, 여성, 비만, 당뇨, 갑상선저하증, 만성 간질환, 신부전 환자 등
+
+3.  Moderate Intensity Statin + Ezetimibe 병용요법이 High Intensity 단독요법군에 비해 열등하지 않았던 이유
+
+    -   Combination 요법이 LDL-C level을 유의미하게 낮추었기 때문
+
+        -   LDL-C 감소 정도 = 주요 심혈관질환 위험의 가장 강력한 예측 인자 (지질강하제 종류와 무관)
+
+    -   LDL-C를 낮추는 것 외에도, Ezetimibe가 아래 기능을 수행하기 때문
+
+        -   죽상경화반 (plaque)의 안정화, 염증반응에 관여하는 유전자 조절, 혈관평활근 세포 증식 억제, 혈소판 응집 억제 등
 
 ## 의의
 
--   세계 최초로 로수바스타틴+에제티미브 복합제의 Long-term CV Outcome을 입증
--   스타틴 이상반응은 대부분 투여 용량 영향이 많기 때문에 RACING 연구와 같이 스타틴 용량을 줄일 수 있다는 점에서 유용할 것
--   특히 동양인에서 스타틴 이상반응이 보다 많다고 알려져 있기에 RACING 연구가 시사하는 바가 크다.
+-   세계 최초로 로수바스타틴+에제티미브 복합제의 Long-term outcome을 입증
+    -   한국지질·동맥경화학회의 [이상지질혈증 진료지침 제5판](https://www.lipid.or.kr/reference/guideline.php?mode=view&idx=1266)에서도 에제티미브(ezetimibe)의 권고등급이 Class Ⅱa에서 Class ⅠB로 상향됐으며, 직접적으로 RACING trial을 인용한 바 있다. 
+-   스타틴 이상반응은 대부분 투여 용량에 영향을 받으므로 용량을 줄일 수 있다는 점에서 유용
+    -   특히 동양인에서 스타틴 이상반응이 보다 많다고 알려져 있기에 RACING 연구가 시사하는 바가 크다.
 
-### 후속연구
+### [**후속연구**](http://m.mostonline.co.kr/news/articleView.html?idxno=97652)
 
--   로수젯 10/2.5mg 임상 3상 결과를 확인해보면 로수바스타틴(2.5, 5mg) 단독요법 대비 저용량임에도 LDL-C 강하 효과의 우월성을 입증했다.
--   Low-Moderate risk 환자 치료 시 로수젯 10/2.5mg 복합제가 중강도 스타틴 단일제의 효과적인 대체 요법
+-   당뇨병 동반, 노인, 경피적관상동맥중재술(PCI) 이후, 초고위험군에 대한 RACING sub study
+-   2023년 8월 JACC(Journal of the American College of Cardiology) : Combination Lipid-Lowering Therapy in Patients Undergoing Percutaneous Coronary Intervention
 :::
 
 ## Limitations {.smaller}
@@ -273,16 +326,5 @@ editor: visual
 1.  **open-label**
     -   의사와 환자 모두 투여되는 스타틴의 용량에 대해 인지하고 있었다.
 2.  기대에 비해 **낮은 사건발생률**이 관찰되었다.
-    -   3.0%라는 고정된 non-inferiority margin이 hazard ratio에 대해 지나치게 관대한 신뢰구간을 허용했기 때문일 가능성
+    -   2.0%라는 고정된 non-inferiority margin이 hazard ratio에 대해 지나치게 관대한 신뢰구간을 허용했을 가능성
 3.  Primary outcome 내의 개별 임상 결과를 비교하는 것은 **사건 수가 적어** 어려웠다.
-4.  본 연구에서는 관상동맥질환 환자만 모집했기 때문에, **다른 특성을 가진 환자 집단과의 비교가 필요하다.**
-    -   가령, 일차 예방 (primary prevention) 의 목적으로 스타틴을 투여받은 환자 집단과의 비교 등
-
-        -   primary prevention : 이상지질혈증 등으로 심혈관질환이 생길 위험이 높은 사람에서 처음부터 심혈관질환이 생기지 않도록 예방하는 것
-
-        -   secondary prevention : 이미 심혈관질환이 생긴 환자에서 재발이나 심혈관질환으로 인한 사망을 예방하는 것, 본 연구는 이차 예방에 해당
-5.  LDL-C 목표치 도달율이 낮아 치료가 충분하지 못했을 가능성이 있다.
-    -   Target 그룹에서 약 60%만이 치료 목표였던 LDL 70mg/dL 이하로 수치가 조절되었다.
-
-    -   스타틴 단독으로 충분한 LDL-C 수치 감소를 달성하지 못한 경우 **스타틴 이외의 요법을 적극적으로 병용했어야 한다**는 비판을 피하기 어렵다.
-6.  **3년이라는 추적 관찰 기간이 충분하지 않았을 가능성**이 있다.
