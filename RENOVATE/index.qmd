@@ -1,0 +1,207 @@
+---
+title: "Intravascular Imaging-Guided or Angiography-Guided Complex PCI":
+subtitle: "관상동맥 복잡 병변에 대한 고위험 관상동맥 스텐트 시술 시
+혈관내 영상장비 사용은 필수적인가?":
+author: "Dongyoun Kim"
+format: 
+  revealjs:
+    slide-number: true
+    transition: slide
+    theme: dark
+    footer: RACING TRIAL
+    reference-location: document
+    scrollable: true
+editor: visual
+---
+
+# Definition
+
+## 이상지질혈증 {.smaller}
+
+## ASCVD
+
+## 이상지질혈증의 치료 {.smaller}
+
+# Background
+
+## 스타틴 증량 VS 병용 요법 {.smaller}
+
+## 기존 연구의 한계 {.smaller}
+
+-   즉, AVCSD 환자에 대해 [두 치료 전략(용량 줄인 스타틴+에제티미브 VS 기존의 고용량 스타틴 단독)의 임상 결과를 비교한 **1년 이상의 장기적인** 추적 RCT 연구는 없었다]{.underline}.
+
+-   **RACING** **trial** 의의 : 3년 간의 효능과 안전성 (3-year clinical efficacy and safety)의 측면에서 **moderate-intensity statin+ezetimibe 병용 요법이 high-intensity statins 대비 비열등한지 검정(noninferiority)**
+
+# Method
+
+::: panel-tabset
+## Study design {.smaller}
+
+-   investigator-initiated, multicentre, randomised, open-label, clinical, non-inferiority trial
+    -   Multi-center : 국내 26개 병원
+    -   Enrollment : 2017/2/14\~2018/12/18
+    -   3년 동안 추적관찰함.
+        -   추적 관찰 기간 동안 내원 시점 : 2m, 6m, 이후 every yr
+        -   지질 수치 : 1yr, 2yr, 3yr
+
+## Population {.smaller}
+
+-   Inclusion Criteria
+
+-   Exclusion Criteria
+
+## Study Design
+
+## Study Procedures {.smaller}
+
+1.  **moderate-intensity statin with ezetimibe combination therapy** [(이하 **Combination**군]{.underline}) : 병용요법
+
+2.  **high-intensity statin monotherapy** ([이하 **High**군]{.underline}) : [고강도 스타틴 단독요법]{.underline}
+
+## Randomization
+
+-   Combination, High 군에 **1:1 무작위 배정**하고,
+    -   기저 LDL-C 수치 (100mg/dL 기준), 당뇨 여부에 따라 **층화 분석함.**
+:::
+
+## Study Endpoint {#criteria-of-revascularization-successful-pci}
+
+::: panel-tabset
+## Primary Endpoint {.smaller}
+
+-   아래로 구성된, 3년 동안의 심뇌혈관질환 사망/발생률
+-   구성요소 : **cardiovascular death** (심혈관질환에 의한 사망) + **major cardiovascular events** (주요 심혈관질환) + **non-fatal stroke** (비치명적 뇌졸중)
+
+## Secondary Endpoint {.smaller}
+:::
+
+## Statistical Analysis
+
+::: panel-tabset
+## Objectives
+
+-   Primary Objective 가 유의하게 확인되는 경우 Secondary Objective 검증
+    -   **주요 목표** (primary objective)
+        -   primary endpoint의 발생
+        -   Combination 군의 High 군 대비 **비열등성** 검정
+    -   **이차적 목표** (secondary objective)
+        -   efficacy endpoint 인 **목표 LDL-C(\<70mg/dL)** 의 달성
+        -   Combination 군의 High 군 대비 **우월성** 검정
+
+## Primary Objective {.smaller}
+
+-   가정 : 3년째 primary outcome의 발생률이 Combination 그룹에서는 13%, High 그룹에서는 14%라고 가정함. (추정 근거 : IMPROVE-IT TRIAL)
+-   intention-to-treat population with **a non-inferiority margin of 2.0%**
+    -   primary endpoint 발생률 차이에 대한 신뢰구간 상한 \< 2.0%일 경우 비열등
+-   Statistical Power (검정력) : 80%
+-   단측검정, type 1 error rate 5.0%
+-   탈락률 15% 예상
+-   **Sample size : 3780명 (각 그룹당 1890명)** 필요
+
+## Secondary Objective {.smaller}
+
+-   가정 : 3년째 목표 LDL-C의 달성률이 Combination 그룹에서는 70%, High 그룹에서는 50%라고 가정함. (추정 근거 : IMPROVE-IT TRIAL)
+-   Statistical Power (검정력) : 80%
+-   양측검정, type 1 error rate 5.0%
+-   탈락률 15% 예상
+-   **Sample size : 220명** 필요 -\> primary objective 검증에 필요한 수만으로도 충분!
+
+## Statistical analysis {.smaller}
+
+-   Primary endpoint
+
+    -   **Kaplan-Meier survival analysis** with log rank test: 3년 primary outcome의 누적 발생률 추정
+        -   time : 등록 시점\~event of interest가 발생한 시점
+    -   **Cox proportional-hazards regression**
+        -   95% 신뢰구간을 가진 hazard ration 추정
+
+-   Secondary endpoint - efficacy
+
+    -   **log rank test**
+
+-   **Intention-to-treat** 분석 시행
+
+-   Multiplicity 교정은 x
+
+-   결측치는 대체하지 않고 제거
+:::
+
+# Results
+
+## Baseline characteristics
+
+::: panel-tabset
+### Table 1.
+
+![](RACING%20Supplement/RACING%20Table%201.png){fig-align="center"}
+
+### Summary
+
+-   **모집 대상**: 3780명 (2017/2/14\~2018/12/18)
+-   **분석 대상**: **Combination 그룹 1894명, High 그룹 1886명**
+    -   이 중 3622명(95.8%)에 대해서 3년 추적 완료
+-   [**두 그룹 사이 baseline characteristics 에는 통계적으로 유의미한 차이가 없었다.**]{.underline}
+-   평균 나이 64세, 남성이 75%
+-   무작위 배정 전 환자들이 복용 중이었던 statin : high-intensity statin 38%, moderate-intensity statin 36%, 13% moderate-intensity statin + ezetimibe
+:::
+
+## Outcomes
+
+::: panel-tabset
+### Figure 2
+
+![](RACING%20Supplement/RACING%20Figure%202.jpg){fig-align="center"}
+
+### Table 2
+
+![](RACING%20Supplement/RACING%20Table%202.png){fig-align="center"}
+
+### Primary/Secondary Outcome {.smaller}
+
+-   **Primary outcome** (투여 후 3년 시점에서의 심혈관계 사망, 뇌졸중, 주요 심혈관 사건 발생률) : **Combination 그룹 9.1%, High 그룹 9.9%**
+    -   두 군간 차이는 -0.78%로 나타나 통계적으로 의미있지 않다. (90% 신뢰구간 -2.39 \~ 0.83%)
+    -   Combination 그룹은 High 그룹 대비 비열등 (**p-value \< 0.001**) <br><br>
+-   **Secondary outcome**
+
+1.  [**LDL-C 목표 수치 (\< 70mg/dL) 도달률**]{.underline}
+
+-   [**목표도달율은모든 관찰시점에서 병용요법이 유의하게 우수**한 것으로 확인되었다.]{.underline} (all p value \< 0.0001)
+    -   고강도 스타틴 단독 요법군(High)
+        -   1년 : 55%, 2년 : 60%, **3년 : 58%**
+    -   병용요법군(Combination)
+        -   1년 : 73%, 2년 : 75%, **3년 : 72%**)
+-   사후검정 : LDL-C \<55 mg/dL 도달율도 [**모든 관찰시점에서 병용요법이 유의하게 우수**]{.underline}
+    -   고강도 스타틴 단독 요법군(High)
+        -   1년 : 25%, 2년 : 29%, 3년 : 25%
+    -   병용요법군(Combination)
+        -   1년 : 42%, 2년 : 45%, 3년 : 42%
+
+2.  [중등도\~고용량 **스타틴 부작용이나 불내성으로** 인한 **약제 중단 또는 용량 감량**한 환자 비율]{.underline}
+
+-   고용량 스타틴 단독요법군(8.2%)과 비교하여 **병용요법군 (4.8%)에서 더 적게 발생** (p\<0.0001)
+:::
+
+# Conclusion
+
+-   ASCVD 환자에서, 3년 심혈관계 사망, 뇌졸중, 또는 주요 심혈관 사건 발생률을 종합한 예후는 **중등도 강도의 스타틴과 에제티미브(Ezetimibe) 병합 요법이** 고강도 스타틴 단독요법 대비 **비열등했다.**
+-   **병합 요법**에서 70mg/dL 이하의 **LDL 콜레스테롤 농도에 도달한 환자의 비율이 높았으며,** **부작용**으로 인한 약물 중단 또는 용량 감소가 **적게 관찰되었다.**
+
+## Discussion
+
+::: panel-tabset
+### Discussion Points {.smaller}
+
+1.  
+
+2.  
+
+3.  
+
+## 의의
+
+### 후속연구
+
+-   
+:::
+
+## Limitations {.smaller}
