@@ -87,8 +87,7 @@ editor: visual
 
     -   19-80세
 
-    -   심혈관질환 (다음 중 적어도 하나) 진단:
-        이전 심근 경색, 급성 관상 동맥 증후군, 재관류시술, 허혈성 뇌졸중 및 말초동맥질환
+    -   심혈관질환 (다음 중 적어도 하나) 진단: 이전 심근 경색, 급성 관상 동맥 증후군, 재관류시술, 허혈성 뇌졸중 및 말초동맥질환
 
 -   Exclusion Criteria
 
@@ -108,7 +107,7 @@ editor: visual
 
 ## Study Design
 
-![](RACING Supplement/RACING Study design.jpg)
+![](RACING%20Supplement/RACING%20Study%20design.jpg)
 
 ## Study Procedures {.smaller}
 
@@ -155,31 +154,47 @@ editor: visual
     -   부작용 : 새로 발병한 당뇨병, 근육/간/담낭 관련 부작용 또는 암 진단
 :::
 
-## Sample size calculation {.smaller}
+## Statistical Analysis
 
--   가정 : 3년째 primary outcome의 발생률이 Combination 그룹에서는 13%, High 그룹에서는 14%라고 가정함. (추정 근거 : IMPROVE-IT TRIAL)
--   intention-to-treat population with **a non-inferiority margin of 2∙0%**
-    -   두 그룹의 primary 누적발생률 차이의 단측 97.5% CI 상한 \< 2.0% 일 경우 비열등성 입증
--   Statistical Power (검정력) : 80%
--   단측검정, type 1 error rate 2.5%
--   **Sample size : 명 (각 그룹당 명)** 필요
-
-## Statistical analysis {.smaller}
+::: panel-tabset
+## Objectives 
 
 -   Primary Objective 가 유의하게 확인되는 경우 Secondary Objective 검증
     -   **주요 목표** (primary objective)
         -   primary endpoint의 발생
         -   Combination 군의 High 군 대비 **비열등성** 검정
     -   **이차적 목표** (secondary objective)
-        -   efficacy endpoint 인 **목표 LDL-C(\<70mg/dL) 달성**
+        -   efficacy endpoint 인 **목표 LDL-C(\<70mg/dL)** 의 달성
         -   Combination 군의 High 군 대비 **우월성** 검정
+
+## Primary Objective {.smaller}
+
+-   가정 : 3년째 primary outcome의 발생률이 Combination 그룹에서는 13%, High 그룹에서는 14%라고 가정함. (추정 근거 : IMPROVE-IT TRIAL)
+-   intention-to-treat population with **a non-inferiority margin of 2.0%**
+-   Statistical Power (검정력) : 80%
+-   단측검정, type 1 error rate 5.0%
+-   탈락률 15% 예상
+-   **Sample size : 3780명 (각 그룹당 1890명)** 필요
+
+## Secondary Objective  {.smaller}
+
+-   가정 : 3년째 목표 LDL-C의 달성률이 Combination 그룹에서는 70%, High 그룹에서는 50%라고 가정함. (추정 근거 : IMPROVE-IT TRIAL)
+-   Statistical Power (검정력) : 80%
+-   양측검정, type 1 error rate 5.0%
+-   탈락률 15% 예상
+-   **Sample size : 220명** 필요 -\> primary objective 검증에 필요한 수만으로도 충분!
+
+## Statistical analysis {.smaller}
+
 -   **Kaplan-Meier curve**: 3년째의 primary outcome의 누적 발생률 추정
     -   사건 발생까지의 시간(time to event)를 분석 대상으로,
-    -   time : 무작위 할당 시점\~event of interest가 처음으로 발생한 시점까지 경과한 시간
+    -   time : 등록 시점\~event of interest가 발생한 시점까지 경과한 시간
+-   **log rank test**
 -   **비열등성 검정**
     -   Kaplan-Meier 생존 곡선에서 failure rate에 대한 z 통계량을 추정하기 위해 [Com-Nougue 방법](https://pubmed.ncbi.nlm.nih.gov/8210831/)을 사용
-    -   표준 오차를 추정하기 위해 [Greenwood formula](https://www.stat.berkeley.edu/~freedman/greenwd.pdf)를 시행
+    -   표준 오차를 추정하기 위해 [Greenwood formula](https://www.stat.berkeley.edu/~freedman/greenwd.pdf)를
 -   **Intention-to-treat**, **Per-Protocol** 분석 모두 시행
+:::
 
 # Results
 
@@ -187,6 +202,8 @@ editor: visual
 
 ::: panel-tabset
 ### Table 1.
+
+![](RACING Supplement/RACING Table 1.png){fig-align="center"}
 
 ### Summary
 
@@ -200,68 +217,54 @@ editor: visual
 ## Outcomes
 
 ::: panel-tabset
-### Figure 3
+### Figure
 
-### Table 2
+### Table
 
 ### Summary {.smaller}
 
 [**Primary/Secondary Outcome**]{.underline}
 
--   3년 간 심혈관계 사망, 뇌졸중, 주요 심혈관 사건 사건 발생률을 종합한 **Primary outcome** 비교 : **Combination 그룹 9.1%, High 그룹 9.9%**
+-   **Primary outcome** (3년 간 심혈관계 사망, 뇌졸중, 주요 심혈관 사건 발생률) : **Combination 그룹 9.1%, High 그룹 9.9%**
     -   두 군간 차이는 -0.78%로 나타나 통계적으로 의미있지 않다. (90% 신뢰구간 -2.39 \~ 0.83%)
     -   Combination 그룹은 High 그룹 대비 비열등성 기준을 충족했다. (**p-value \< 0.001**) <br><br>
 -   **Secondary outcome**:
 
-1.  매년 추적관찰했을 때에LDL-c 수치 \< 70mg/dL 도달율 (all p value \< 0.0001)
+1.  매년 추적관찰했을 때의 **LDL-C 수치 \< 70mg/dL 도달율** (all p value \< 0.0001)
 
--   고강도 스타틴 단일 제제(high)보다는 (1년 : 55%, 2년 : 60%, **3년 : 58%**)
--   병합 치료군(combination)에서 더욱 빈번하게 관찰되었다. (1년 : 73%, 2년 : 75%, **3년 : 72%**)
+-   고강도 스타틴 단일 제제(High)보다는 (1년 : 55%, 2년 : 60%, **3년 : 58%**)
+-   **병합 치료군(Combination)에서 더욱 빈번하게 관찰되었다.** (1년 : 73%, 2년 : 75%, **3년 : 72%**)
 
-2.  중등도\~고용량에서 발생할 수 있는 스타틴의 부작용이나 불내성불능으로 인한 약제 중단 또는 용량 감량
+2.  중등도\~고용량에서 발생할 수 있는 스타틴의 **부작용**이나 불내성으로 인한 **약제 중단 또는 용량 감량**
 
--   고용량 스타틴 단일 그룹(8.2%)과 비교하여 병합 치료군(4.8%)에서 더 적게 발생하였다. (p\<0.0001)
+-   고용량 스타틴 단일 그룹(8.2%)과 비교하여 **병합 치료군(4.8%)에서 더 적게 발생하였다.** (p\<0.0001)
 :::
 
 # Conclusion
 
--   ASCVD 환자에서, 3년 간 심혈관계 사망, 뇌졸중, 또는 주요 심혈관 사건 발생률을 종합한 예후는 중등도 강도의 스타틴과 에제티미브(Ezetimibe) 병합 요법이 고강도 스타틴 단독요법 대비 비열등했다.
--   병합 요법에서 70mg/dL 이하의 LDL 콜레스테롤 농도에 도달한 환자의 비율이 높았으며, 부작용으로 인한 약물 중단 또는 용량 감소가 적게 관찰되었다.
+-   ASCVD 환자에서, 3년 간 심혈관계 사망, 뇌졸중, 또는 주요 심혈관 사건 발생률을 종합한 예후는 **중등도 강도의 스타틴과 에제티미브(Ezetimibe) 병합 요법이** 고강도 스타틴 단독요법 대비 **비열등했다.**
+-   **병합 요법**에서 70mg/dL 이하의 **LDL 콜레스테롤 농도에 도달한 환자의 비율이 높았으며,** **부작용**으로 인한 약물 중단 또는 용량 감소가 **적게 관찰되었다.**
 
 ## Discussion
 
 ::: panel-tabset
 ### Discussion Points {.smaller}
 
-1.  Target 그룹에서 약 60%만이 치료 목표였던 LDL 70mg/dL 이하로 수치가 조절되었다.
+1.  
 
-2.  high intensity statin 사용량 : Target 군(54%) \< High 군(92%) 로 차이를 보였으나 치료 반응에는 차이가 없었다.
+2.  
 
-    -   **보다 낮은 용량의 statin에도 치료 반응을 보인다면, 고강도 statin 요법까지 필요하지 않다.**
-
-    -   Secondary endpoint(당뇨, 신장 질환 등의 부작용)의 측면에서도, treat-to-target strategy가 high-intensity statin 요법보다 더욱 안전하다.
-
-3.  Treat-to-target strategy 관련 유의사항
-
-    1.  **관상동맥질환 환자에서의 LDL-C 목표치**를 검토해보아야 한다.
-
-        -   본 연구에서는 70mg/dL를 기준으로 했으므로, 2019년 [ESC/EAS guideline](doi:10.1093/eurheartj/%20ehz455)에서는 55mg/dL 이하를 권고했다.
-
-    2.  LDL-C 목표치 도달을 위해서는 적극적인 노력이 필요하다. (병용요법 등)
-
-    3.  **기저 LDL-C 수치** 및 스타틴 용량에 따라 감소할 것으로 기대되는 정도 (expected degree of LDL)에 따라 **초기 스타틴 시작 용량을 조절**하는 전략이 필요하다.
-
-    4.  RACING 연구를 세부 분석했을 때 당뇨병 환자에서도 마찬가지로 스타틴+에제티미브 복합제가 비열등하다는 결과를 보여줬다
+3.  
 
 ## 의의
 
 -   세계 최초로 로수바스타틴+에제티미브 복합제의 Long-term CV Outcome을 입증
 -   스타틴 이상반응은 대부분 투여 용량 영향이 많기 때문에 RACING 연구와 같이 스타틴 용량을 줄일 수 있다는 점에서 유용할 것
--   특히 동양인이 스타틴 이상반응이 서양인보다 많다고 알려져 있기에 RACING 연구가 시사하는 바가 크다
+-   특히 동양인에서 스타틴 이상반응이 보다 많다고 알려져 있기에 RACING 연구가 시사하는 바가 크다.
 
 ### 후속연구
 
--   로수젯 10/2.5mg 임상 3상 결과를 확인해보면 로수바스타틴(2.5, 5mg) 단독요법 대비 저용량임에도 LDL-C 강하 효과의 우월성을 입증했다
+-   로수젯 10/2.5mg 임상 3상 결과를 확인해보면 로수바스타틴(2.5, 5mg) 단독요법 대비 저용량임에도 LDL-C 강하 효과의 우월성을 입증했다.
 -   Low-Moderate risk 환자 치료 시 로수젯 10/2.5mg 복합제가 중강도 스타틴 단일제의 효과적인 대체 요법
 :::
 
