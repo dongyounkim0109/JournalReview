@@ -87,7 +87,7 @@ editor: visual
 -   일부 가이드라인에서는 LDL-C를 적어도 50% 이상 감소시키기 위해 고강도 스타틴 치료를 권장한다.
 
     | 장점                              | 단점                                                                               |
-    |-----------------------|------------------------------------------------|
+    |------------------------|------------------------------------------------|
     | 스타틴 강도 조절이 필요 없어 편리 | 스타틴 약제에 개개인의 반응이 다름                                                 |
     |                                   | 장기적으로 고강도 스타틴 투여로 발생하는 근육통, 간 손상, 당뇨 등 부작용 발생 위험 |
 :::
@@ -208,10 +208,11 @@ editor: visual
 
 -   **모집 대상**: 4400명 (2016/09/09 \~ 2019/11/27)
 -   **분석 대상**: **Target 그룹 2200명, High 그룹 2200명**
--   The baseline characteristics of the participants did not differ between the groups
+    -   이 중 4341명에 대해서 3년 추적 완료
+-   두 그룹 사이 baseline characteristics 에는 차이가 없었다.
 -   평균 나이 65.1세, 여성 1228명
--   무작위화 당시 진단받거나 시술/수술받은 지 1년이 넘은 사람: 75%
--   고강도, 중등도 statin 치료를 받던 사람: 25%, 57%
+-   Randomization 당시 진단받거나 재관류시술받은 지 1년 넘은 환자: 74%
+-   이전부터 statin 치료를 받고 있던 환자: high intensity 25%, moderate intensity 57%
 :::
 
 ## Outcomes
@@ -225,11 +226,21 @@ editor: visual
 
 ![](LODESTAR%20supplement/LOADSTAR%20Table%202.png){fig-align="center"}
 
-총 3년 동안 추적 관찰한 결과, 평균 LDL 콜레스테롤 수치는 스타틴 강도 조절 전략군은 69.1㎎/dL, 고강도 스타틴 유지 전략군은 68.4㎎/dL로 두 집단 간 차이가 없었다.
-
-반면 스타틴 강도 조절 전략군은 스타틴이 54%, 중등도 스타틴이 43%로 각각 사용돼 LDL 콜레스테롤 수치 저감에서 약 50% 환자로부터 고강도 스타틴 사용을 줄일 수 있었다
-
 ### Summary {.smaller}
+
+[**mean LDL-C level during the study period**]{.underline}
+
+-   6주째 측정한 평균 LDL 콜레스테롤 수치는 Target 군에서 유의하게 더 높았다.
+
+-   총 3년간의 추적 관찰 기간에서, 평균 LDL 콜레스테롤 수치는 Target 군에서는 69.1㎎/dL, High 군에서는 68.4㎎/dL로 두 집단 간 유의한 차이가 없었다. (p=0.021)
+
+-   목표 도달율 (\<70mg/dL) :
+
+[**Statin 사용량**]{.underline}
+
+반면 Target 군에서는 high intensity statin이 54%, moderate intensity statin이 43% 각각 사용되어 LDL 콜레스테롤 수치 저감에서 약 50% 환자로부터 고강도 스타틴 사용을 줄일 수 있었다
+
+[**Primary/Secondary Outcome**]{.underline}
 
 -   3년 간 사망, 심근경색, 뇌졸중과 심혈관 재관류 발생을 종합한 **Primary outcome** (MACCE) 누적발생률 비교 : **Target 그룹 8.1%, High 그룹 8.7%**
     -   두 군간 차이는 -0.6%에 불과했으며 통계적으로 의미있지 않다. (97.5% 단측 신뢰구간 상한 1.2%)
@@ -252,21 +263,25 @@ editor: visual
 1.  Target 그룹에서 약 60%만이 치료 목표였던 LDL 70mg/dL 이하로 수치가 조절되었다.
 
     -   당시에는 스타틴 이외의 지질강하제 병용을 권고하지 않았기 때문
-    -   해당 연구가 시작되었던 2019년 6월에는 병용 요법이 흔하게 사용되지는 않았으나, [최근 가이드라인](https://www.lipid.or.kr/reference/guideline.php?mode=view&idx=1266)에서는 권고된다.
+    -   해당 연구가 시작되었던 2019년 6월에는 **병용 요법이 흔하게 사용되지는 않았으나, [최근 가이드라인](https://www.lipid.or.kr/reference/guideline.php?mode=view&idx=1266)에서는 권고된다.**
 
-2.  Treat-to-target 군과 High-intensity 군의 **고강도 statin 사용**에는 큰 차이가 있었으나 (54% vs 92%) **치료 성적**은 차이가 없었다. <br><br> - 이는 treat-to-target strategy가 **개인 치료 반응 차이를 고려한 치료법**임을 의미한다. 즉, 저강도 statin 요법에도 반응을 보이는 환자에게는 부작용을 감수하며 고강도 statin 요법을 사용할 필요가 없다. <br><br> - Secondary endpoint가 treat-to-target 군에서 낮게 나타난 경향은 **treat-to-target strategy가 고강도 statin 요법의 부작용으로부터 비교적 안전함**을 시사한다. <br><br> - 실제로 2013 ACC/AHA 지침에서 고정용량 용법을 권고한 후 부작용 때문에 고강도 statin 요법을 중단하는 경우가 많아졌다.
+2.  high intensity statin 사용량 : Target 군(54%) \< High 군(92%) 로 차이를 보였으나 치료 반응에는 차이가 없었다.
+
+    -   **보다 낮은 용량의 statin에도 치료 반응을 보인다면, 고강도 statin 요법까지 필요하지 않다.**
+
+    -   Secondary endpoint(당뇨, 신장 질환 등의 부작용)의 측면에서도, treat-to-target strategy가 high-intensity statin 요법보다 더욱 안전하다.
 
 3.  Treat-to-target strategy 관련 유의사항
 
     1.  **관상동맥질환 환자에서의 LDL-C 목표치**를 검토해보아야 한다.
 
-        본 연구에서는 70mg/dL를 기준으로 했으므로, 2019년 [ESC/EAS guideline](doi:10.1093/eurheartj/%20ehz455)에서는 55mg/dL 이하를 권고했다.
+        -   본 연구에서는 70mg/dL를 기준으로 했으므로, 2019년 [ESC/EAS guideline](doi:10.1093/eurheartj/%20ehz455)에서는 55mg/dL 이하를 권고했다.
 
-    2.  **LDL-C 목표치 도달을 위해서는 적극적인 노력이 필요하다.** (병용요법 등)
+    2.  LDL-C 목표치 도달을 위해서는 적극적인 노력이 필요하다. (병용요법 등)
 
-    3.  **초기에는 Target 그룹의 LDL-C 수치가** 상대적으로 높았으며, 이는 수치 조절을 위해 시간이 필요했기 때문일 것으로 예상된다.
+    3.  **기저 LDL-C 수치** 및 스타틴 용량에 따라 감소할 것으로 기대되는 정도 (expected degree of LDL)에 따라 **초기 스타틴 시작 용량을 조절**하는 전략이 필요하다.
 
-        1.  Target 군의 statin 시작 강도 역시 초기 LDL-C 수치에 맞춰 조절하는 전략이 필요할 수 있다.
+        -   본 연구에서는 Statin-Naive 환자들의 기저 LDL-C 수준과 관계없이 moderate intensity statin으로 시작해야 한다는 프로토콜이 있었지만, 만약 기저 LDL-C 수준이 100 mg/dL 이상인 환자에게 high intensity statin으로 조절을 시작했다면 목표 수치 70 mg/dL 이하를 조기에 달성할 수 있었을 것이다. 초기에는 Target 그룹의 LDL-C 수치가 상대적으로 높았던 것은 이처럼 LDL 수치 조절을 위해 시간이 필요했기 때문이다.
 
 ## 의의
 
@@ -278,9 +293,6 @@ editor: visual
 
 1.  **open-label**
     -   의사와 환자 모두 투여되는 스타틴의 용량에 대해 인지하고 있었다.
-
-<!-- -->
-
 2.  기대에 비해 **낮은 사건발생률**이 관찰되었다.
     -   3.0%라는 고정된 non-inferiority margin이 hazard ratio에 대해 지나치게 관대한 신뢰구간을 허용했기 때문일 가능성
 3.  Primary outcome 내의 개별 임상 결과를 비교하는 것은 **사건 수가 적어** 어려웠다.
