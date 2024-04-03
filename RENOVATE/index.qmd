@@ -1,7 +1,6 @@
 ---
 title: "Intravascular Imaging-Guided or Angiography-Guided Complex PCI":
-subtitle: "관상동맥 복잡 병변에 대한 고위험 관상동맥 스텐트 시술 시
-혈관내 영상장비 사용은 필수적인가?":
+subtitle: "고위험 관상동맥 스텐트 시술 시혈관내 영상장비 사용은 필수적인가?":
 author: "Dongyoun Kim"
 format: 
   revealjs:
@@ -16,33 +15,49 @@ editor: visual
 
 # Definition
 
-## 이상지질혈증 {.smaller}
+## 관상동맥 질환  {.smaller}
 
-## ASCVD
+## 관상동맥 중재시술 {.smaller}
 
-## 이상지질혈증의 치료 {.smaller}
+-   2세대 약물방출 스텐트 (Drug-eluting stent, DES)의 개발 이후 스텐트 재협착을 포함한 임상사건의 발생률이 현저하게 감소
+
+-   하지만 **복잡한 관상동맥 병변**은 여전히 **단순 병변**에 비해 관상동맥 중재시술 후의 예후가 유의하게 좋지 않다.
 
 # Background
 
-## 스타틴 증량 VS 병용 요법 {.smaller}
+## 관상동맥 중재시술과 영상검사 
+
++---------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------+
+| 혈관조영술 (Angiography)                          | 혈관내 초음파 (Intravascular ultrasound, IVUS), 광간섭단층촬영 (Optical coherency tomography, OCT) = 관상동맥 내 영상 장비  |
+|                                                   |                                                                                                                             |
+| = 가장 기본                                       |                                                                                                                             |
++===================================================+=============================================================================================================================+
+| 죽상경화반의 모양, 성질, 및 양을 파악하기 어려움  | 죽상경화반의 분포와 성질에 대한 정보를 제공                                                                                 |
++---------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------+
+| 최적의 스텐트 삽입 여부를 판단하기 어려움         | 최적의 스텐트 사이즈와 landing zone을 결정하는데 도움                                                                       |
+|                                                   |                                                                                                                             |
+|                                                   | 스텐트 삽입 후 발생할 수 있는 malapposition, underexpansion, dissection 등의 급성 합병증을 발견할 수 있는 정보를 제공       |
++---------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------+
 
 ## 기존 연구의 한계 {.smaller}
 
--   즉, AVCSD 환자에 대해 [두 치료 전략(용량 줄인 스타틴+에제티미브 VS 기존의 고용량 스타틴 단독)의 임상 결과를 비교한 **1년 이상의 장기적인** 추적 RCT 연구는 없었다]{.underline}.
+-   일부 RCT에서 **관상동맥내 영상장비를 사용한 PCI의 예후**가 혈관조영술만에 기반한 경우보다 개선되었음을 보고하였다.
 
--   **RACING** **trial** 의의 : 3년 간의 효능과 안전성 (3-year clinical efficacy and safety)의 측면에서 **moderate-intensity statin+ezetimibe 병용 요법이 high-intensity statins 대비 비열등한지 검정(noninferiority)**
+    -   [그러나 sample size가 제한적이거나, 특정 관상동맥 병변만을 대상으로 이루어진 연구였고]{.underline}, 이에 따라 현재의 [ACC/AHA](#0) 및 [ESC/EACTS 가이드라인](#0)에서는 관상동맥내 영상장비의 사용을 [Class IIA](#0)의 수준(should be considered)으로만 권고하고 있다.
+
+-   **RENOVATE-COMPLEX-PCI** 의의 : **관상동맥 복잡병변(**complex coronary a. lesions**)**에 대해, **관상동맥내 영상장비**를 사용한 관상동맥 중재시술과 **혈관조영술만**에 기반한 중재시술의 장기 예후를 비교하기 위한 무작위 배정 임상시험
 
 # Method
+
+In this multicenter, open-label trial in South Korea, we randomly assigned patients with complex coronary-artery lesions in a 2:1 ratio to undergo either intravascular imaging--guided PCI or angiography-guided PCI. In the intra- vascular imaging group, the choice between intravascular ultrasonography and optical coherence tomography was at the operators' discretion. The primary end point was a composite of death from cardiac causes, target-vessel--related myocar- dial infarction, or clinically driven target-vessel revascularization. Safety was also assessed.
 
 ::: panel-tabset
 ## Study design {.smaller}
 
--   investigator-initiated, multicentre, randomised, open-label, clinical, non-inferiority trial
-    -   Multi-center : 국내 26개 병원
-    -   Enrollment : 2017/2/14\~2018/12/18
-    -   3년 동안 추적관찰함.
-        -   추적 관찰 기간 동안 내원 시점 : 2m, 6m, 이후 every yr
-        -   지질 수치 : 1yr, 2yr, 3yr
+-   investigator-initiated, prospective, multicenter, randomised, open-label trial
+    -   Multi-center : 국내 20개 기관
+    -   Enrollment :
+    -   년 동안 추적관찰함.
 
 ## Population {.smaller}
 
@@ -128,6 +143,8 @@ editor: visual
 
 # Results
 
+A total of 1639 patients underwent randomization, with 1092 assigned to undergo intravascular imaging--guided PCI and 547 assigned to undergo angiography- guided PCI. At a median follow-up of 2.1 years (interquartile range, 1.4 to 3.0), a primary end-point event had occurred in 76 patients (cumulative incidence, 7.7%) in the intravascular imaging group and in 60 patients (cumulative incidence, 12.3%) in the angiography group (hazard ratio, 0.64; 95% confidence interval, 0.45 to 0.89; P = 0.008). Death from cardiac causes occurred in 16 patients (cumulative incidence, 1.7%) in the intravascular imaging group and in 17 patients (cumulative incidence, 3.8%) in the angiography group; target-vessel--related myocardial in- farction occurred in 38 (cumulative incidence, 3.7%) and 30 (cumulative incidence, 5.6%), respectively; and clinically driven target-vessel revascularization in 32 (cumulative incidence, 3.4%) and 25 (cumulative incidence, 5.5%), respectively. There were no apparent between-group differences in the incidence of procedure- related safety events.
+
 ## Baseline characteristics
 
 ::: panel-tabset
@@ -150,11 +167,7 @@ editor: visual
 ::: panel-tabset
 ### Figure 2
 
-![](RACING%20Supplement/RACING%20Figure%202.jpg){fig-align="center"}
-
 ### Table 2
-
-![](RACING%20Supplement/RACING%20Table%202.png){fig-align="center"}
 
 ### Primary/Secondary Outcome {.smaller}
 
@@ -183,6 +196,7 @@ editor: visual
 
 # Conclusion
 
+-   Among patients with complex coronary-artery lesions, intravascular imaging-- guided PCI led to a lower risk of a composite of death from cardiac causes, target- vessel--related myocardial infarction, or clinically driven target-vessel revascular- ization than angiography-guided PCI.
 -   ASCVD 환자에서, 3년 심혈관계 사망, 뇌졸중, 또는 주요 심혈관 사건 발생률을 종합한 예후는 **중등도 강도의 스타틴과 에제티미브(Ezetimibe) 병합 요법이** 고강도 스타틴 단독요법 대비 **비열등했다.**
 -   **병합 요법**에서 70mg/dL 이하의 **LDL 콜레스테롤 농도에 도달한 환자의 비율이 높았으며,** **부작용**으로 인한 약물 중단 또는 용량 감소가 **적게 관찰되었다.**
 
