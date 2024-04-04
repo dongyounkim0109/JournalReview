@@ -141,7 +141,7 @@ editor: visual
 -   가정 : 24개월 내 primary outcome의 발생률이 FFR 그룹에서 10%, IVUS 그룹에서 12%
 -   Sampling Ratio - FFR : IVUS = 1 : 1
 -   **Non-inferiority margin 2.5%**
-    -   H0 : FFR-guided PCI의 primary outcome 발생률 - IVUS-guided PCI의 primary outcome은 2.5% (NI) 이상이다.
+    -   H0 : FFR-guided PCI의 primary outcome 발생률 - IVUS-guided PCI의 primary outcome 발생률은 2.5% (NI) 이상이다.
 -   Statistical Power (검정력) : 90%
 -   단측검정, 95% 신뢰구간 이용, type 1 error rate 5.0% (의료기기 검정에 사용)
 -   Sample size : 1700 명 (각 그룹당 850명) 필요
