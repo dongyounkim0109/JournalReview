@@ -1,6 +1,5 @@
 ---
-title: "Intravascular Imaging-Guided or Angiography-Guided Complex PCI""
-author: "Dongyoun Kim"
+title: "Intravascular Imaging-Guided or Angiography-Guided Complex PCI"
 format: 
   revealjs:
     slide-number: true
@@ -258,7 +257,7 @@ editor: visual
         -   본 연구 : **심인성 사망 또는 표적혈관 관련 심근경색**과 같은 hard clinical end point의 감소 ( Intravascular-Imaging군에서 Angiography군 대비 위험도가 37% 낮았다. )
 
         -   이러한 차이는 **더 많은 환자**를 등재하고 **추적관찰 기간** 역시 더 길며, **관상동맥 복잡병변만을 대상**으로 하였기 때문으로 생각된다.
--   상동맥 복잡병변에 대한 고위험 중재시술시 단순히 관상동맥내 영상장비를 사용할 뿐만 아니라, **꼼꼼한 시술의 최적화가 중요함**을 시사
+-   관상동맥 복잡병변에 대한 고위험 중재시술시 단순히 관상동맥내 영상장비를 사용할 뿐만 아니라, **꼼꼼한 시술의 최적화가 중요함**을 시사
 :::
 
 ## Limitations {.smaller}
