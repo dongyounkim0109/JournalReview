@@ -1,6 +1,5 @@
 ---
 title: "Intravascular Imaging-Guided or Angiography-Guided Complex PCI""
-subtitle: "고위험 관상동맥 스텐트 시술 시혈관내 영상장비 사용은 필수적인가?":
 author: "Dongyoun Kim"
 format: 
   revealjs:
