@@ -98,7 +98,7 @@ editor: visual
 -   FFR, IVUS 군에 **1:1 랜덤 배정**하고,
 -   **연구 기관, 당뇨 유무**에 따라 층화분석함.
 
-## Criteria of Revascularization & Successful PCI {.smaller} {#criteria-of-revascularization-successful-pci}
+## Criteria of Revascularization & Successful PCI {#criteria-of-revascularization-successful-pci}
 
 ::: panel-tabset
 ### IVUS
