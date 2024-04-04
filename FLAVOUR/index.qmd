@@ -161,15 +161,15 @@ editor: visual
 ::: panel-tabset
 ### Table 1.
 
-![](images/FLAVOUR%20Table%201.jpeg){fig-align="center"}
+![](FLAVOUR Supplement/FLAVOUR Table 1.jpeg){fig-align="center"}
 
 ### **Table 2.**
 
-![](images/FLAVOUR%20Table%202.jpeg){fig-align="center"}
+![](FLAVOUR Supplement/FLAVOUR Table 2.jpeg){fig-align="center"}
 
 ### Figure S2
 
-![](images/FLAVOUR%20Figure%20S2.png){fig-align="center"}
+![](FLAVOUR Supplement/FLAVOUR Figure S2.png){fig-align="center"}
 
 ### Summary
 
@@ -188,15 +188,15 @@ editor: visual
 ::: panel-tabset
 ### Table 3
 
-![](images/FLAVOUR%20Table%203.jpeg){fig-align="center"}
+![](FLAVOUR Supplement/FLAVOUR Table 3.jpeg){fig-align="center"}
 
 ### Table S6
 
-### ![](images/FLAVOUR%20Table%20S6.png)
+### ![](FLAVOUR Supplement/FLAVOUR Table S6.png)
 
 ### Figure 1 {.smaller}
 
-![](images/FLAVOUR%20Figure%201.jpeg){fig-align="center"}
+![](FLAVOUR Supplement/FLAVOUR Figure 1.jpeg){fig-align="center"}
 
 총 2년 동안 추적 관찰한 결과, 임상적 사건 발생률은 FFR군에서 8.1%, IVUS 군에서 8.5%로 FFR군의 비열등성을 증명했다.
 
