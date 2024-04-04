@@ -101,7 +101,7 @@ editor: visual
 
 -   Intravascular Imaging 군에서 **혈관내 초음파(intravascular ultrasonography) VS 광간섭단층촬영(OCT)**의 선택은 병변의 특성과 임상적 판단에 따라 **시술의의 결정에 따름.** 
 
--   **Stent optimization**: 스텐트 위치가 적절하고, 가장자리 박리 없이 충분히 팽창한 경우
+-   [**Stent optimization**: 스텐트 위치가 적절하고, 가장자리 박리 없이 충분히 팽창한 경우]{.underline}
 
     -   스텐츠 최적화가 이루어지지 않은 경우 추가 팽창/스텐트 삽입/혈관 내측 재검사를 시행함.
 :::
@@ -177,11 +177,13 @@ editor: visual
 ::: panel-tabset
 ### Table 2
 
-![](RENOVATE Supplement/RENOVATE Table 2.jpeg){fig-align="center"}
+![](RENOVATE%20Supplement/RENOVATE%20Table%202.jpeg){fig-align="center"}
 
 ### Summary
 
--   두 그룹의 관상동맥 병변 종류, 관상동맥 질환의 심각도 및 PCI 과정은 유사
+-   두 그룹의 관상동맥 **병변 종류, 관상동맥 질환의 심각도 및 PCI 과정**은 유사
+
+-   두 그룹의 시술 관련 합병증 발생률도 유사 (3.4% vs 3.3%)
 
 -   Intravascular imaging 군의 73.3%는 IVUS(혈관 내 초음파), 25.5%는 OCT를 사용
 
@@ -190,8 +192,6 @@ editor: visual
         -   stent optimization = 연구 시작전 정의한 시술 최적화
 
 -   Drug-eluting stent를 이용한 PCI 성공율은 98.4% (1613/1639)
-
--   두 그룹의 시술 관련 합병증 발생은 유사 (3.4% vs 3.3%)
 :::
 
 ## Outcomes
@@ -199,19 +199,23 @@ editor: visual
 ::: panel-tabset
 ### Figure 1
 
-![](RENOVATE Supplement/RENOVATE Figure 1.jpeg){fig-align="center"}
+![](RENOVATE%20Supplement/RENOVATE%20Figure%201.jpeg){fig-align="center"}
 
 ### Table 3
 
-![](RENOVATE Supplement/RENOVATE Table 3.jpeg){fig-align="center"}
+![](RENOVATE%20Supplement/RENOVATE%20Table%203.jpeg){fig-align="center"}
+
+### Figure 2 
+
+![](RENOVATE Supplement/RENOVATE Figure 2.jpeg){fig-align="center"}
 
 ### Primary/Secondary Outcome {.smaller}
 
 -   **Primary outcome** (Target vessel failure 발생률) : Intravascular imaging **7.7%,** Angiography 12.3%
 
-    -   Intravascular imaging 군의 위험도가 36% 유의하게 낮은 결과 (hazard ratio, 0.64; 95% confidence interval, 0.45 to 0.89; P=0.008)
+    -   Intravascular imaging 군의 위험도가 36% 유의하게 낮음 (hazard ratio, 0.64; 95% confidence interval, 0.45 to 0.89; P=0.008)
 
-    -   연구 시작 전 정의한 **시술 최적화 (procedural optimization)**
+    -   연구 시작 전 정의한 **시술 최적화 (procedural optimization)**에 따라
 
         -   시술 최적화 달성 intravascular imaging 군에서 6.0%
 
@@ -221,7 +225,7 @@ editor: visual
 
 -   **Secondary outcome**
 
-    -   아래 항목에서 **Intravascular imaging 군의 누적발생률**이 유의미하게 낮음 <br><br>
+    -   아래 항목에서 **Intravascular imaging 군에서의 누적발생률**이 유의미하게 낮음 <br><br>
 
         -   [시술과 관련한 심근경색(procedure-related MI)을 제외한 심인성 사망]{.underline}
 
@@ -234,38 +238,34 @@ editor: visual
 
 # Conclusion
 
--   **관상동맥 복잡병변에 대한 고위험 중재시술 시, TVF 측면에서 Intravascular imaging** g**uided PCI가 angiography-guided PCI보다 환자의 예후를 유의하게 개선하였다.**
+-   **관상동맥 복잡병변에 대한 고위험 중재시술 시, TVF의 측면에서 Intravascular imaging** g**uided PCI가 angiography-guided PCI보다 환자의 예후를 유의하게 개선하였다.**
 
     -   TVF = 심혈관계 사망, 표적혈관 관련 심근경색, 표적혈관 재관류 발생률을 종합한 예후
 
 # Discussion
 
 ::: panel-tabset
-### Discussion Points {.smaller}
-
-1.  본 연구는 선행 연구들과 달리 **다양한 종류의 complex lesion을 포함**했고, 재시술뿐 아니라 **심근경색과 사망의 측면에서도 intravascular imaging의 이점이 있음**을 밝혔다.<br><br>
-
--   본 연구의 강점은 **큰 표본수, 최소한의 crossover, 긴 추적관찰, 낮은 탈락율, 환자 선정기준의 (complex lesion) 엄격한 관리**에 있다.
-
-2.  Stent optimization이 intravascular imaging, angiography 군에서 모두 낮게 측정되었으나 (45.4%, 58.9%) revascularization의 누적발생률은 모두 낮았다. (6.3%, 7.1%) <br><br>
-
--   즉, 선행 연구들에서는 intravascular imaging의 이점이 낮은 revascularization 빈도라고 보고되었으나 <br><br>
--   본 연구에서는 되려 revascularization은 차이가 없고, 오히려 표젹혈관 관련 심근경색, 심인성 사망이 37% 적게 보고되었다.<br><br>
--   이 차이는 본 연구의 장점인 큰 표본수와 긴 관찰기간에서 기인한 것으로 보이지만, **stent optimization의 현 기준이 환자 예후를 제대로 반영하지 못하고 있을 가능성** 역시 시사한다.<br><br>
--   또한 본 연구는 **complex lesion에서 imaging-guided PCI의 routine use가 고려되어야 함**을 시사한다.
-
 ## 의의
 
-### 후속연구
+-   RENOVATE-COMPLEX-PCI trial은 [기존 연구들과는 달리,]{.underline}
+    -   실제 임상에서 마주할 수 있는 **다양한 형태의 복잡병변을 포함했다.**
 
--   
+    -   당시 가장 **최신의 표준화된 시술 최적화** (procedural optimization) **프로토콜**을 적용하여 진행되었다.
+
+    -   Intravascular-Imaging guided PCI 의 새로운 이점을 제시했다.
+
+        -   기존의 연구들 : **재시술률** 감소
+
+        -   본 연구 : **심인성 사망 또는 표적혈관 관련 심근경색**과 같은 hard clinical end point의 감소 ( Intravascular-Imaging군에서 Angiography군 대비 위험도가 37% 낮았다. )
+
+        -   이러한 차이는 **더 많은 환자**를 등재하고 **추적관찰 기간** 역시 더 길며, **관상동맥 복잡병변만을 대상**으로 하였기 때문으로 생각된다.
+-   상동맥 복잡병변에 대한 고위험 중재시술시 단순히 관상동맥내 영상장비를 사용할 뿐만 아니라, **꼼꼼한 시술의 최적화가 중요함**을 시사
 :::
 
 ## Limitations {.smaller}
 
--   시술자는 intervention의 종류를 안 채로 시술을 시행했다 **(open-label)**.<br><br>
--   임상시험이 **동양아시아 인종**에 대해서만 이뤄졌고, 절반 이상이 **단일 기관**에서 모집되었다.
--   Intravascular imaging 군의 **Stent optimization은 45.4%밖에 되지 않았다.**<br><br>
--   두 군의 **Stent optimization 평가방식이 달랐다.**<br><br>
--   임상시험이 **동양아시아 인종**에 대해서만 이뤄졌고, 절반 이상이 **단일 기관**에서 모집되었다.<br><br>
--   Intravascular imaging의 가격이 상대적으로 비싸 **cost-effectiveness analyses가 추가로 필요하다.**
+1.  **Unblinded** : 불가피하게도, 시술자는 환자가 받을 intervention의 종류를 안 채로 시술을 시행했다.
+2.  Intravascular imaging 군의 **시술 최적화 비율 (Stent optimization)**은 **45.4%**에 불과했다.
+3.  시술 최적화를 평가하는데에 있어, 두 군에서 각각 **다른 검사도구**가 이용되었다. (혈관 내 영상검사 VS 관상동맥조영술)
+4.  **동아시아인 환자**들만 포함했으며, 반 이상의 환자들이 **특정 단일 기관**에 등록된 환자들이었다.
+5.  Intravascular imaging 이 보다 비싸기 때문에 향후 임상 현장에서의 적용을 위해서는 **cost-effectiveness analyses가 필요하다.**
