@@ -308,14 +308,14 @@ editor: visual
 
         -   죽상경화반 (plaque)의 안정화, 염증반응에 관여하는 유전자 조절, 혈관평활근 세포 증식 억제, 혈소판 응집 억제 등
 
-## 의의
+### 의의
 
 -   세계 최초로 로수바스타틴+에제티미브 복합제의 Long-term outcome을 입증
     -   한국지질·동맥경화학회의 [이상지질혈증 진료지침 제5판](https://www.lipid.or.kr/reference/guideline.php?mode=view&idx=1266)에서도 에제티미브(ezetimibe)의 권고등급이 Class Ⅱa에서 Class ⅠB로 상향됐으며, 직접적으로 RACING trial을 인용한 바 있다. 
 -   스타틴 이상반응은 대부분 투여 용량에 영향을 받으므로 용량을 줄일 수 있다는 점에서 유용
     -   특히 동양인에서 스타틴 이상반응이 보다 많다고 알려져 있기에 RACING 연구가 시사하는 바가 크다.
 
-### [**후속연구**](http://m.mostonline.co.kr/news/articleView.html?idxno=97652)
+### **후속연구**
 
 -   당뇨병 동반, 노인, 경피적관상동맥중재술(PCI) 이후, 초고위험군에 대한 RACING sub study
 -   2023년 8월 JACC(Journal of the American College of Cardiology) : Combination Lipid-Lowering Therapy in Patients Undergoing Percutaneous Coronary Intervention
